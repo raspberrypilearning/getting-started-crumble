@@ -1,4 +1,4 @@
-## Connecting your Crumble
+## Connecting the Crumble controller
 
 + Step content...
 
