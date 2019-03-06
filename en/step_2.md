@@ -1,3 +1,3 @@
-## Step title
+## Connecting your Crumble
 
 + Step content...
