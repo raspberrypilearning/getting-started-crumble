@@ -1,6 +1,7 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+A crumble controller is a low-cost electronics controller that connects to a computer using a USB cable. Components like LEDs, switches, motors and servos can be connected using crocodile leads and can be programmed using Crumble’s free software.
+In this project you will learn to connect a crumble controller and crumble sparkle LEDs, and write your first simple crumble code.
 
 ### What you will make
 
@@ -22,7 +23,9 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ A PC or Mac with Crumble software installed and a USB port
++ Or a Chromebook with Crumble BETA software and a USB port
++ A Crumble starter kit - or the components bought separately
 
 ### Software
 
@@ -41,8 +44,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ Connect power to a Crumble controller
++ Connect Crumble Sparkle RGB LEDs to a Crumble controller
++ Write and run an LED colour changing program using Crumble software
 
 --- /collapse ---
 
