@@ -29,7 +29,7 @@ title: What you will need
 
 ### Software
 
-+ [Crumble](https://redfernelectronics.co.uk/crumble-software/) software
++ [Crumble](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} software
 
 ### Downloads
 
