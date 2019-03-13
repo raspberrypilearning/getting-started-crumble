@@ -48,8 +48,15 @@ Click on the colour picker box (this is always red by default) and a colour pick
 
 ![Colour picker on Windows version](images/winColPick.jpg)
 
+Choose a colour for your Sparkle by clicking in the large square colour selector or picking one of the 'Basic colours'.
+
 --- /task ---
 
+On different devices, the colour picker is quite different.
+
+On a Mac for example, there are five different colour picker options!
+
+![Colour picker on Mac OSX version](images/macColPick1.jpg)![Colour picker on Mac OSX version](images/macColPick2.jpg)![Colour picker on Mac OSX version](images/macColPick3.jpg)
 
 
 
