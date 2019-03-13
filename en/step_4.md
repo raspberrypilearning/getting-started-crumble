@@ -10,8 +10,29 @@ Let's start coding!
 
 --- task ---
 
-Drag the `start program`{:class="block3myblocks"} block into your workspace.
+Drag the `program start`{:class="block3myblocks"} block into your workspace.
 
 ![The Crumble program start block](images/programStart.jpg)
 
 --- /task ---
+
+Everything that you connect underneath the `program start`{:class="block3myblocks"} block will run.
+
+Any blocks in your workspace that are not connected to the `program start`{:class="block3myblocks"} block will not run.
+
+--- task ---
+
+Click on the `Sparkles`{:class="block3mylooks"} palette to have a look at what Sparkle coding blocks we can use.
+
+![The Sparkle block palette](images/sparkleBlocks.jpg)
+
+--- /task ---
+
+There are three different types of Sparkle block that we can use.
+
+`set sparkle to`{:class="block3mylooks"} with a colour picker box, `turn sparkle off`{:class="block3mylooks"}, and `set sparkle to`{:class="block3mylooks"} a colour by giving individual red, green and blue values.
+
+Each of these has a version for a specific Sparkle and another for ALL Sparkles!
+
+
+
