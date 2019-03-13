@@ -38,7 +38,7 @@ Each of these has a version for a specific Sparkle and another for ALL Sparkles!
 
 Drag a `set sparkle to`{:class="block3looks"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="block3myblocks"} block.
 
-![Add a set Sparkle block](images/setSparkleBoxBlocks.jpg)
+![Add a set Sparkle block](images/setSparkleBlocksBox.jpg)
 
 --- /task ---
 
