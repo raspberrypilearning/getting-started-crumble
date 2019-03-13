@@ -22,7 +22,7 @@ Any blocks in your workspace that are not connected to the `program start`{:clas
 
 --- task ---
 
-Click on the `Sparkles`{:class="block3mylooks"} palette to have a look at what Sparkle coding blocks we can use.
+Click on the `Sparkles`{:class="block3looks"} palette to have a look at what Sparkle coding blocks we can use.
 
 ![The Sparkle block palette](images/sparkleBlocks.jpg)
 
@@ -33,6 +33,24 @@ There are three different types of Sparkle block that we can use.
 `set sparkle to`{:class="block3looks"} with a colour picker box, `turn sparkle off`{:class="block3looks"}, and `set sparkle to`{:class="block3looks"} a colour by giving individual red, green and blue values.
 
 Each of these has a version for a specific Sparkle and another for ALL Sparkles!
+
+--- task ---
+
+Drag a `set sparkle to`{:class="block3looks"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="block3myblocks"} block.
+
+![Add a set Sparkle block](images/setSparkleBoxBlocks.jpg)
+
+--- /task ---
+
+--- task ---
+
+Click on the colour picker box (this is always red by default) and a colour picker will appear.
+
+![Colour picker on Windows version](images/windowsColourPicker.jpg)
+
+--- /task ---
+
+
 
 
 
