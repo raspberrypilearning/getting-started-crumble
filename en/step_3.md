@@ -42,3 +42,4 @@ Use a final crocodile clip to connect from the 'D' terminal on the right side of
 
 --- /task ---
 
+Great! Our Sparkle is fully connected and it is time to light the lights!
