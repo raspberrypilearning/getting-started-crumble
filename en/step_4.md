@@ -10,15 +10,15 @@ Let's start coding!
 
 --- task ---
 
-Drag the `program start`{:class="block3myblocks"} block into your workspace.
+Drag the `program start`{:class="block3variables"} block into your workspace.
 
 ![The Crumble program start block](images/programStart.jpg)
 
 --- /task ---
 
-Everything that you connect underneath the `program start`{:class="block3myblocks"} block will run.
+Everything that you connect underneath the `program start`{:class="block3variables"} block will run.
 
-Any blocks in your workspace that are not connected to the `program start`{:class="block3myblocks"} block will not run.
+Any blocks in your workspace that are not connected to the `program start`{:class="block3variables"} block will not run.
 
 --- task ---
 
@@ -36,7 +36,7 @@ Each of these has a version for a specific Sparkle and another for ALL Sparkles!
 
 --- task ---
 
-Drag a `set sparkle to`{:class="block3looks"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="block3myblocks"} block.
+Drag a `set sparkle to`{:class="block3looks"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="block3variables"} block.
 
 ![Add a set Sparkle block](images/setSparkleBlocksBox.jpg)
 
