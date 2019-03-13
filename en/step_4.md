@@ -10,7 +10,7 @@ Let's start coding!
 
 --- task ---
 
-Drag the `program start`{:class="block2control"} block into your workspace.
+Drag the `program start`{:class="block3variables"} block into your workspace.
 
 ![The Crumble program start block](images/programStart.jpg)
 
@@ -36,7 +36,7 @@ Each of these has a version for a specific Sparkle and another for ALL Sparkles!
 
 --- task ---
 
-Drag a `set sparkle to`{:class="block2looks"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="block3variables"} block.
+Drag a `set sparkle to`{:class="block3looks"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="block3variables"} block.
 
 ![Add a set Sparkle block](images/setSparkleBlocksBox.jpg)
 
