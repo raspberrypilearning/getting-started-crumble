@@ -48,7 +48,3 @@ If everything is good, you will get the message, "programming successful".
 ![Crumble successfully connected message](images/progsuccess.jpg)
 
 --- /task ---
-
-
-
-[[[connecting-a-Sparkle]]]
