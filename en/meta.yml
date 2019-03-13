@@ -7,6 +7,6 @@ copyedit: false
 last_tested: "2019-03-06"
 steps:
   - title: Introduction
-  - title: Connecting the Crumble controller
+  - title: Seting up the Crumble controller
   - title: Connecting battery power
   - title: step 4
