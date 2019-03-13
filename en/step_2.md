@@ -1,9 +1,10 @@
 ## Connecting the Crumble controller
 
-url
+--- task ---
+
 The first thing to do is to connect your Crumble controller board (the white circuit board with 12 gold terminal holes) to your computer. 
 
-
+--- /task ---
 
 
 ![cute kittens](images/kit.jpg)
