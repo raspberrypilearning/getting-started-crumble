@@ -46,7 +46,7 @@ Drag a `set sparkle to`{:class="block3looks"} block with a colour picker box out
 
 Click on the colour picker box (this is always red by default) and a colour picker will appear.
 
-![Colour picker on Windows version](images/windowsColourPicker.jpg)
+![Colour picker on Windows version](images/winColPick.jpg)
 
 --- /task ---
 
