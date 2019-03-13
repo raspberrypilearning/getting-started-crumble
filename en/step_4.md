@@ -58,6 +58,7 @@ On a Mac for example, there are five different colour picker options!
 
 ![Colour picker on Mac OSX version](images/macColPick1.jpg)![Colour picker on Mac OSX version](images/macColPick2.jpg)![Colour picker on Mac OSX version](images/macColPick3.jpg)
 
+Here are three of the different ways that you can colour pick using the Mac OSX version of Crumble.
 
 
 
