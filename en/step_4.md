@@ -30,7 +30,7 @@ Click on the `Sparkles`{:class="block3mylooks"} palette to have a look at what S
 
 There are three different types of Sparkle block that we can use.
 
-`set sparkle to`{:class="block3mylooks"} with a colour picker box, `turn sparkle off`{:class="block3mylooks"}, and `set sparkle to`{:class="block3mylooks"} a colour by giving individual red, green and blue values.
+`set sparkle to`{:class="block3looks"} with a colour picker box, `turn sparkle off`{:class="block3looks"}, and `set sparkle to`{:class="block3looks"} a colour by giving individual red, green and blue values.
 
 Each of these has a version for a specific Sparkle and another for ALL Sparkles!
 
