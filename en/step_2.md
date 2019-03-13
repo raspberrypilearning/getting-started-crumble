@@ -6,6 +6,8 @@ The first thing to do is to connect your Crumble controller board (the white cir
 
 Plug the smaller, micro USB, end of your connecting cable into the micro USB socket at one end of your Crumble.
 
+Make sure the connector is the right way round. The slightly flatter side should be facing up.
+
 ![connecting micro USB cable to Crumble](images/microUSB.jpg)
 
 --- /task ---
