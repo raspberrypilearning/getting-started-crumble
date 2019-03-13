@@ -1,6 +1,10 @@
 ## Connecting the Crumble controller
 
-+ Step content...
+url
+The first thing to do is to connect your Crumble controller board (the white circuit board with 12 gold terminal holes) to your computer. 
+
+
+
 
 ![cute kittens](images/kit.jpg)
 [google](https://www.google.com){:target="_blank"}
