@@ -37,11 +37,15 @@ I have used a red wire for the positive connection and a black wire for the nega
 
 --- /task ---
 
-
+That's it. Your Crumble is set up and ready to go. Let's just check that your computer agrees.
 
 --- task ---
 
+Open the Crumble software on your computer and click on the green triangle 'play' button. Normally this runs your code but we are using it to check that your computer is communicating with the Crumble.
 
+If everything is good, you will get the message, "programming successful".
+
+![Crumble successfully connected message](images/progsuccess.jpg)
 
 --- /task ---
 
