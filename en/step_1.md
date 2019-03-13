@@ -7,7 +7,7 @@ In this project you will learn to connect a crumble controller and crumble spark
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded noodles here.
+
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="600" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
