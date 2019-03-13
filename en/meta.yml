@@ -8,5 +8,5 @@ last_tested: "2019-03-06"
 steps:
   - title: Introduction
   - title: Seting up the Crumble controller
-  - title: Connecting battery power
+  - title: Connecting a Sparkle
   - title: step 4
