@@ -10,13 +10,13 @@ Let's start coding!
 
 --- task ---
 
-Drag the `program start`{:class="blockcrumblebasic"} block into your workspace.
+Drag the `program start`{:class="block3variables"} block into your workspace.
 
 ![The Crumble program start block](images/programStart.jpg)
 
 --- /task ---
 
-Everything that you connect underneath the `program start`{:class="block3variables"} block will run.
+Everything that you connect underneath the `program start`{:class="blockcrumblebasic"} block will run.
 
 Any blocks in your workspace that are not connected to the `program start`{:class="block3variables"} block will not run.
 
