@@ -10,12 +10,12 @@ In this project you will learn to connect a crumble controller and crumble spark
 
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="600" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="600" height="402" src="https://scratch.mit.edu/projects/embed/293810915/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![A disappointing lack of image!](images/noImageHereYet.png)
 --- /print-only ---
 
 --- collapse ---
