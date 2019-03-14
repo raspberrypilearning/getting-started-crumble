@@ -18,7 +18,7 @@ Drag the `program start`{:class="block3variables"} block into your workspace.
 
 Everything that you connect underneath the `program start`{:class=ff5e3a} block will run.
 
-Any blocks in your workspace that are not connected to the `program start`{:class="block3variables"} block will not run.
+Any blocks in your workspace that are not connected to the `program start`{:class="ff5e3a"} block will not run.
 
 --- task ---
 
