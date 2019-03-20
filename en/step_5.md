@@ -1,6 +1,6 @@
-## Adding more Sparkles
+## More Sparkle with RGB colour code
 
-Now that we have one Sparkle working, let's add another one!
+Now that we have one Sparkle working, let's add another one! This time we will use RGB (red, green and blue) values to set our Sparkle's colour.
 
 --- task ---
 
@@ -18,9 +18,9 @@ Now we need to add some code to make the second Sparkle turn on.
 
 In the Crumble software on your computer, we're going to try a new block from the Sparkle block palette.
 
-Drag out the `set sparkle to`{:class="block3looks"} block that ends with the three RGB value input boxes, `0`{:class="block3myblocks"} `0`{:class="block3operators"} `0`{:class="block3motion"} and connect it under your existing `set sparkle`{:class="block3looks"}0`to`{:class="block3looks"} block.
+Drag out the `set sparkle to`{:class="block3looks"} block that ends with the three RGB value input boxes, `0`{:class="block3myblocks"} `0`{:class="block3operators"} `0`{:class="block3motion"} and connect it under your existing `set sparkle to`{:class="block3looks"} block.
 
-![Coding a second Sparkle](images/secondSparkleCodeBlocks.jpg)
+![Coding a second Sparkle](images/secondSparkleCodeBlocks.png)
 
 --- /task ---
 
