@@ -112,16 +112,7 @@ Run your code to see if you were right each time!
 
 --- /task ---
 
+# This is test code to be removed!
 <a href="https://www.google.com/search?q=color+picker">![image link test](images/SparkleRGBcode.png)</a>
 
---- task ---
-
-
-
---- /task ---
-
---- task ---
-
-
-
---- /task ---
+# End test
