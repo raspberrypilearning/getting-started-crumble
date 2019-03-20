@@ -75,6 +75,8 @@ Press the green 'play' triangle to run your code.
 
 ![Running your first Crumble Sparkle program](images/crumble_first_sparkle_noPrint.jpg)
 
+--- /print-only ---
+
 --- /task ---
 
 

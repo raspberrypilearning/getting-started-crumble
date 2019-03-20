@@ -42,9 +42,11 @@ Set your second `set sparkle to`{:class="crumblesparkles"} block to control our 
 
 ![Second Sparkle being set to Sparkle 1](images/secondSparkleSetTo1_noPrint.png)
 
+--- /print-only ---
+
 --- /task ---
 
-# RGB colour mixing
+### RGB colour mixing
 
 Computers show colours by mxing different amounts of red, green and blue (RGB). Each  of these colours can have a value from 0 to 255, where 0 is no colour at all and 255 is the maximum. 
 
@@ -62,7 +64,31 @@ If all the RGB values are 0, you will get black. If all the values are 255, you 
 
 ![RGB colour mixing](images/RGBvalues_noPrint.png)
 
-Google have a neat little RGB colour picker that you can use to explore different colour values, [RGB colour picker](https://www.google.com/search?q=color+picker){:target="_blank"}
+--- /print-only ---
+
+Google have a neat little [RGB colour picker](https://www.google.com/search?q=color+picker){:target="_blank"} that you can use to explore different colour values.
+
+Click on the [RGB colour picker](https://www.google.com/search?q=color+picker){:target="_blank"} and then click on the slider and the colour space to find the colour of your choice. The RGB values will show to the left.
+
+--- task ---
+
+Enter a value in each or the `red`{:class="block3myblocks"}, `green`{:class="block3operators"} and `blue`{:class="block3motion"} input boxes in the `set sparkle to`{:class="crumblesparkles"} block.
+
+Click the green 'play' triangle to run your code and see what colour combination you just created!
+
+--- no-print ---
+
+![Lighting your second Sparkle with RGB values](images/secondSparkleLights.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Lighting your second Sparkle with RGB values](images/secondSparkleLights_noPrint.png)
+
+--- /print-only ---
+
+--- /task ---
 
 The Crumble software does not give you any visual indication as to what your RGB value combination will produce but it's fun to experiment with different mixes. Predict what your combination will produce, run your code and see if you were right!
 
