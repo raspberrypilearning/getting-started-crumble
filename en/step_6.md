@@ -4,7 +4,41 @@ We already have two Sparkles connected to our Crumble and if you want more just 
 
 Now we are going to look at changing our Sparkles' colours and creating colour sequences.
 
+We'll start by coding a colour sequence for `sparkle 0`{:class="crumblesparkles"}.
+
 --- task ---
 
+We start, as always, with the `program start`{:class="crumblebasic"} block and from the sparkles block palette, choose a `set sparkle to`{:class="crumblesparkles" block - you can choose either the colour picker or the RGB values version. 
+
+To get more `set sparkle to`{:class="crumblesparkles" blocks you can drag each block out from the block palette or you can right-click on a block and choose 'duplicate'.
+
+Connect three `set sparkle to`{:class="crumblesparkles" blocks together and choose a different colour for each.
+
+![Coding a three colour Sparkle sequence without wait blocks](images/threeSetSparkleBlocks.png)
+
+What do you think will happen when you run this code?
+
+Make a prediction and then run the code.
 
 --- /task ---
+
+It looked as though it forgot to run the first two colours and went straight to the third but what really happened was that it ran through them so quickly that we couldn't see it.
+
+To solve this problem, we need to put a wait, or pause, between each colour setting block.
+
+`Set colour `{:class="crumblesparkles"`red`{:class="block3myblocks" > `wait`{:class="crumblecontrol" > `Set colour `{:class="crumblesparkles"`green`{:class="block3operators" > `wait`{:class="crumblecontrol" > `Set colour `{:class="crumblesparkles"`blue`{:class="block3motion"
+
+--- task ---
+
+From the `control`{:class="crumblecontrol" block palette, drag out a `wait`{:class="crumblecontrol". You could choose either the seconds or milliseconds version (1,000 milliseconds = 1 second).
+
+Connect a `wait`{:class="crumblecontrol" block after each `set sparkle to`{:class="crumblesparkles" blocks.
+
+![Coding a three colour Sparkle sequence with wait blocks](images/threeSetSparkleBlocksWithWaits.png)
+
+Now run your code again and check that it works.
+
+--- /task ---
+
+We didn't really need the last `wait`{:class="crumblecontrol" block, but we will need it for what comes next.
+
