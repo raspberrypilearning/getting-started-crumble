@@ -16,13 +16,13 @@ Drag the `program start`{:class="crumblebasic"} block into your workspace.
 
 --- /task ---
 
-Everything that you connect underneath the `program start`{:class="block3myblocks"} block will run.
+Everything that you connect underneath the `program start`{:class="crumblebasic"} block will run.
 
 Any blocks in your workspace that are not connected to the `program start`{:class="crumblebasic"} block will not run.
 
 --- task ---
 
-Click on the `Sparkles`{:class="block3looks"} palette to have a look at what Sparkle coding blocks we can use.
+Click on the `Sparkles`{:class="crumblesparkles"} palette to have a look at what Sparkle coding blocks we can use.
 
 ![The Sparkle block palette](images/sparkleBlocks.jpg)
 
@@ -30,13 +30,13 @@ Click on the `Sparkles`{:class="block3looks"} palette to have a look at what Spa
 
 There are three different types of Sparkle block that we can use.
 
-`set sparkle to`{:class="block3looks"} with a colour picker box, `turn sparkle off`{:class="block3looks"}, and `set sparkle to`{:class="block3looks"} a colour by giving individual red, green and blue values.
+`set sparkle to`{:class="crumblesparkles"} with a colour picker box, `turn sparkle off`{:class="crumblesparkles"}, and `set sparkle to`{:class="crumblesparkles"} a colour by giving individual red, green and blue values.
 
 Each of these has a version for a specific Sparkle and another for ALL Sparkles!
 
 --- task ---
 
-Drag a `set sparkle to`{:class="block3looks"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="block3variables"} block.
+Drag a `set sparkle to`{:class="crumblesparkles"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="crumblebasic"} block.
 
 ![Add a set Sparkle block](images/setSparkleBlocksBox.jpg)
 
@@ -59,7 +59,7 @@ On a Mac for example, there are five different colour picker options!
 ![Colour picker on Mac OSX version](images/macColPick.jpg)
 Here are three of the different ways that you can colour pick using the Mac OSX version of Crumble.
 
-We've got our `program start`{:class="crumblebasic"} block, we've `set sparkle to`{:class="block3looks"} a colour of our choice. That's it, we are ready to run our code!
+We've got our `program start`{:class="crumblebasic"} block, we've `set sparkle to`{:class="crumblesparkles"} a colour of our choice. That's it, we are ready to run our code!
 
 --- task ---
 
