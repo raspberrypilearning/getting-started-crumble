@@ -24,11 +24,11 @@ Drag out the `set sparkle to`{:class="crumblesparkles"} block that ends with the
 
 --- /task ---
 
-At the moment, both Sparkle blocks are set for `Sparkle 0`{:class="crumblesparkles"}. The first Sparkle connected to the Crumble is given the name `Sparkle 0`{:class="crumblesparkles"}, which slightly confusingly makes the second Sparkle, `Sparkle 1`{:class="crumblesparkles"} and so on.
+At the moment, both Sparkle blocks are set for `sparkle 0`{:class="crumblesparkles"}. The first Sparkle connected to the Crumble is given the name `sparkle 0`{:class="crumblesparkles"}, which slightly confusingly makes the second Sparkle, `sparkle 1`{:class="crumblesparkles"} and so on.
 
 --- task ---
 
-To set our second `set sparkle to`{:class="crumblesparkles"} block to control our second Sparkle, `Sparkle 1`{:class="crumblesparkles"}, click on the 0 inside the input box right after `set sparkle`{:class="crumblesparkles"} and enter the digit 1 then press RETURN or click outside the input box.
+To set our second `set sparkle to`{:class="crumblesparkles"} block to control our second Sparkle, `sparkle 1`{:class="crumblesparkles"}, click on the 0 inside the input box right after `set sparkle`{:class="crumblesparkles"} and enter the digit 1 then press RETURN or click outside the input box.
 
 --- no-print ---
 
@@ -41,6 +41,20 @@ To set our second `set sparkle to`{:class="crumblesparkles"} block to control ou
 ![Second Sparkle being set to Sparkle 1](images/secondSparkleSetTo1_noPrint.png)
 
 --- /task ---
+
+The Crumble software does not give you any visual indication as to what your RGB value combination will produce but it's fun to experiment with different mixes. Predict what your combination will produce, run your code and see if you were right!
+
+What do you think 
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
 
 --- /task ---
 
