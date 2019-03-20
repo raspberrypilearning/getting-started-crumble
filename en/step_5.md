@@ -24,11 +24,13 @@ Drag out the `set sparkle to`{:class="crumblesparkles"} block that ends with the
 
 --- /task ---
 
-At the moment, both Sparkle blocks are set for `sparkle 0`{:class="crumblesparkles"}. The first Sparkle connected to the Crumble is given the name `sparkle 0`{:class="crumblesparkles"}, which slightly confusingly makes the second Sparkle, `sparkle 1`{:class="crumblesparkles"} and so on.
+At the moment, both Sparkle blocks are set for `sparkle 0`{:class="crumblesparkles"}. 
+
+The first Sparkle connected to the Crumble is given the name `sparkle 0`{:class="crumblesparkles"}, which slightly confusingly makes the second Sparkle, `sparkle 1`{:class="crumblesparkles"} and so on.
 
 --- task ---
 
-To set our second `set sparkle to`{:class="crumblesparkles"} block to control our second Sparkle, `sparkle 1`{:class="crumblesparkles"}, click on the 0 inside the input box right after `set sparkle`{:class="crumblesparkles"} and enter the digit 1 then press RETURN or click outside the input box.
+Set your second `set sparkle to`{:class="crumblesparkles"} block to control our second Sparkle, `sparkle 1`{:class="crumblesparkles"}, by clicking on the 0 inside the input box right after `set sparkle`{:class="crumblesparkles"}, inputting '1' and then pressing RETURN on the keyboard.
 
 --- no-print ---
 
@@ -41,6 +43,8 @@ To set our second `set sparkle to`{:class="crumblesparkles"} block to control ou
 ![Second Sparkle being set to Sparkle 1](images/secondSparkleSetTo1_noPrint.png)
 
 --- /task ---
+
+# RGB colour mixing
 
 Computers show colours by mxing different amounts of red, green and blue (RGB). Each  of these colours can have a value from 0 to 255, where 0 is no colour at all and 255 is the maximum. 
 
