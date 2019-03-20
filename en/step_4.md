@@ -16,7 +16,7 @@ Drag the `program start`{:class="crumblebasic"} block into your workspace.
 
 --- /task ---
 
-Everything that you connect underneath the `program start`{:class=ff5e3a} block will run.
+Everything that you connect underneath the `program start`{:class="block3myblocks"} block will run.
 
 Any blocks in your workspace that are not connected to the `program start`{:class="ff5e3a"} block will not run.
 
