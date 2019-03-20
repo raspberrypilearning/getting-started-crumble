@@ -10,7 +10,7 @@ Let's start coding!
 
 --- task ---
 
-Drag the `program start`{:class="blockcrumblebasic"} block into your workspace.
+Drag the `program start`{:class="crumblebasic"} block into your workspace.
 
 ![The Crumble program start block](images/programStart.jpg)
 
@@ -18,7 +18,7 @@ Drag the `program start`{:class="blockcrumblebasic"} block into your workspace.
 
 Everything that you connect underneath the `program start`{:class="block3myblocks"} block will run.
 
-Any blocks in your workspace that are not connected to the `program start`{:class="ff5e3a"} block will not run.
+Any blocks in your workspace that are not connected to the `program start`{:class="crumblebasic"} block will not run.
 
 --- task ---
 
@@ -59,5 +59,14 @@ On a Mac for example, there are five different colour picker options!
 ![Colour picker on Mac OSX version](images/macColPick.jpg)
 Here are three of the different ways that you can colour pick using the Mac OSX version of Crumble.
 
+We've got our `program start`{:class="crumblebasic"} block, we've `set sparkle to`{:class="block3looks"} a colour of our choice. That's it, we are ready to run our code!
+
+--- task ---
+
+Press the green 'play' triangle to run your code.
+
+![Running your first Crumble Sparkle program](images/crumble_first_sparkle.gif)
+
+--- /task ---
 
 
