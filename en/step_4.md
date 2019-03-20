@@ -65,7 +65,15 @@ We've got our `program start`{:class="crumblebasic"} block, we've `set sparkle t
 
 Press the green 'play' triangle to run your code.
 
+--- no-print ---
+
 ![Running your first Crumble Sparkle program](images/crumble_first_sparkle.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running your first Crumble Sparkle program](images/crumble_first_sparkle_noPrint.jpg)
 
 --- /task ---
 
