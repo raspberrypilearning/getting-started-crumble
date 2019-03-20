@@ -42,13 +42,39 @@ To set our second `set sparkle to`{:class="crumblesparkles"} block to control ou
 
 --- /task ---
 
+Computers show colours by mxing different amounts of red, green and blue (RGB). Each  of these colours can have a value from 0 to 255, where 0 is no colour at all and 255 is the maximum. 
+
+It is more like mixing light than mixing paint though, and you may be surprised by some of the colours that you get.
+
+If all the RGB values are 0, you will get black. If all the values are 255, you will get white, but you can get millions of colours by combining the number in between!
+
+--- no-print ---
+
+![RGB colour mixing](images/RGBvalues.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![RGB colour mixing](images/RGBvalues_noPrint.png)
+
 The Crumble software does not give you any visual indication as to what your RGB value combination will produce but it's fun to experiment with different mixes. Predict what your combination will produce, run your code and see if you were right!
 
-What do you think 
+What colour do you think red:255, green:0 & blue:255 will give you?
+
+What colour do you think red:255, green:255 & blue:0 will give you?
+
+How would you combine red, green and blue values to get orange?
 
 --- task ---
 
+Play around wit the RGB values. 
 
+Choose a colour and try and find the right values to make that colour, or choose the RBG values and try to predict what colour you will get.
+
+A great game here is to use the `sparkle 0`{:class="crumblesparkles"} colour picker to choose a colour and then try and set the RGB values for `sparkle 1`{:class="crumblesparkles"} to get as close as you can. Challenge a code buddy!
+
+Run your code to see if you were right each time!
 
 --- /task ---
 

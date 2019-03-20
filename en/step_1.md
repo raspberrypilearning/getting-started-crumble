@@ -13,9 +13,6 @@ In this project you will learn to connect a crumble controller and crumble spark
   <iframe allowtransparency="true" width="600" height="402" src="https://scratch.mit.edu/projects/embed/293810915/?autostart=false" frameborder="0"></iframe>
 </div>
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="600" height="402" src="https://www.google.com/search?q=color+picker" frameborder="0"></iframe>
-</div>
 --- /no-print ---
 
 --- print-only ---
