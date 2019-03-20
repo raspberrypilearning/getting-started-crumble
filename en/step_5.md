@@ -112,6 +112,8 @@ Run your code to see if you were right each time!
 
 --- /task ---
 
+<a href="www.google.com">![image link test](images/SparkleRGBcode.png)</a>
+
 --- task ---
 
 
