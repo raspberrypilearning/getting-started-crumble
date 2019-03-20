@@ -62,6 +62,8 @@ If all the RGB values are 0, you will get black. If all the values are 255, you 
 
 ![RGB colour mixing](images/RGBvalues_noPrint.png)
 
+Google have a neat little RGB colour picker that you can use to explore different colour values, [RGB colour picker](https://www.google.com/search?q=color+picker){:target="_blank"}
+
 The Crumble software does not give you any visual indication as to what your RGB value combination will produce but it's fun to experiment with different mixes. Predict what your combination will produce, run your code and see if you were right!
 
 What colour do you think red:255, green:0 & blue:255 will give you?
