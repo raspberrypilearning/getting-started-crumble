@@ -10,7 +10,7 @@ Let's start coding!
 
 --- task ---
 
-Drag the `program start`{:class="block3variables"} block into your workspace.
+Drag the `program start`{:class="crumblebasic"} block into your workspace.
 
 ![The Crumble program start block](images/programStart.jpg)
 
