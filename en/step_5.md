@@ -68,6 +68,8 @@ If all the RGB values are 0, you will get black. If all the values are 255, you 
 
 Google have a neat little [RGB colour picker](https://www.google.com/search?q=color+picker){:target="_blank"} that you can use to explore different colour values.
 
+[![Google's colour picker with RGB values](images/googleColourPicker.png)](https://www.google.com/search?q=color+picker){:target="_blank"}
+
 Click on the [link](https://www.google.com/search?q=color+picker){:target="_blank"}, then click or drag the slider and colour space to find the colour of your choice. The RGB values will show to the left.
 
 --- task ---
@@ -111,10 +113,3 @@ A great game here is to use the `sparkle 0`{:class="crumblesparkles"} colour pic
 Run your code to see if you were right each time!
 
 --- /task ---
-
-# This is test code to be removed!
-<a href="https://www.google.com/search?q=color+picker">![image link test](images/SparkleRGBcode.png)</a>
-
-[![Lighting your second Sparkle with RGB values](images/secondSparkleLights_noPrint.png)](https://www.google.com/search?q=color+picker){:target="_blank"}
-
-# End test
