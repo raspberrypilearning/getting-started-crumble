@@ -115,6 +115,6 @@ Run your code to see if you were right each time!
 # This is test code to be removed!
 <a href="https://www.google.com/search?q=color+picker">![image link test](images/SparkleRGBcode.png)</a>
 
-[![Lighting your second Sparkle with RGB values](images/secondSparkleLights_noPrint.png)](https://www.google.com/search?q=color+picker)
+[![Lighting your second Sparkle with RGB values](images/secondSparkleLights_noPrint.png)](https://www.google.com/search?q=color+picker){:target="_blank"}
 
 # End test
