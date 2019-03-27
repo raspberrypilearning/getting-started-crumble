@@ -2,7 +2,7 @@
 
 Before we code, lets have a quick look at the Crumble software programming environment.
 
-![Crumble software programming environment](images/crumbleEnvironment.jpg)
+![Crumble software programming environment](images/crumbleEnvironmentBlack.png)
 
 It is a blockly language a little like Scratch but in Crumble there are only six block palettes and only one starting block, the 'program start' block.
 

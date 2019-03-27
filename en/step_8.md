@@ -1,46 +1,26 @@
 ## Challenge: Follow me colour sequence
 
-![Traffic light colours loop](images/challengeTrafficLoopBaseCode.png)
-
-Using the code above, `sparkle 0`{:class="crumblesparkles"} will flash from red, to amber, to green, back to red and so on. `sparkle 1`{:class="crumblesparkles"} flashes the colour that was just on `sparkle 0`{:class="crumblesparkles"}.
-
 --- no-print ---
 
-![Traffic light colours loop running](images/challengeTrafficLoopBaseReal.gif)
+Can you write a program that will make your Sparkles do this?
+
+![Traffic light colours loop running](images/challengeTrafficLoopSolutionReal.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-At the moment that `sparkle 0`{:class="crumblesparkles"} changes from red to amber, `sparkle 1`{:class="crumblesparkles"} will change to red. Then after half a second, `sparkle 0`{:class="crumblesparkles"} changes from amber to green, `sparkle 1`{:class="crumblesparkles"} as changes to amber. So `sparkle 0`{:class="crumblesparkles"} is always one step ahead of `sparkle 1`{:class="crumblesparkles"}.
+Can you write a piece of code that will make `sparkle 0`{:class="crumblesparkles"} changes from red to amber to green and then repeat that 5 times. Meanwhile, `sparkle 1`{:class="crumblesparkles"} will change in the same sequence but a little delayed, e.g. half a second behind.
+
+So, `sparkle 0`{:class="crumblesparkles"} changes to red, and a few moments later, `sparkle 1`{:class="crumblesparkles"} changes to red. Then after maybe half a second, `sparkle 0`{:class="crumblesparkles"} changes to amber, followed shortly by `sparkle 1`{:class="crumblesparkles"} changing to amberand so on.
 
 --- /print-only ---
-
-![Traffic light colours loop running](images/challengeTrafficLoopBaseReal.gif)
-
-Can you rearrange the code and add any extra blocks if needed to make `sparkle 1`{:class="crumblesparkles"} show `sparkle 0's`{:class="crumblesparkles"} colour BEFORE it changes to the next colour in the sequence?
 
 --- hints ---
 
 --- hint ---
 
---- no-print ---
-
-The finished code will look like this when you run it.
-
-![Traffic light follow me loop running](images/challengeTrafficLoopSolutionReal.gif)
-
---- /no-print ---
-
---- print-only ---
-
-In the old sequence, the colours changed at the same time, but in the new sequence, `sparkle 0`{:class="crumblesparkles"} and `sparkle 1`{:class="crumblesparkles"} will take it in turns to change colour.
-
-The sequence will start with `sparkle 0`{:class="crumblesparkles"} being red, then `sparkle 1`{:class="crumblesparkles"} will also turn red. Next, `sparkle 0`{:class="crumblesparkles"} will change to amber followed shortly after by `sparkle 1`{:class="crumblesparkles"} also turning amber, and so on.
-
---- /print-only ---
-
-Try and follow the colour sequence and note when each Sparkle changes to a new colour.
+Use code so that when the `program starts`{:class="crumblebasic"}, the `first Sparkle turns red`{:class="crumblesparkles"}. Then, `after half a second`{:class="crumblecontrol"}, the `second Sparkle also turns red`{:class="crumblesparkles"}. Next, , `after half a second`{:class="crumblecontrol"}, the `first Sparkle turns amber`{:class="crumblesparkles"}. and so on, so that each Sparkle loops through red, amber and green.
 
 --- /hint ---
 
