@@ -1,5 +1,9 @@
 ## Setting up the Crumble controller
 
+If you don't already have Crumble software installed on your PC, Mac, Chromebook or Linux device, look at the relevant section below to download and install Crumble.
+
+`A SLECTION OF INGREDIENTS TO BE CREATED AND PUT HERE FOR EACH DIFFERENT PLATFORM`{:class="crumblesparkles"}
+
 The first thing to do is to connect your Crumble controller board (the white circuit board with 12 gold terminal holes) to your computer.
 
 --- task ---
