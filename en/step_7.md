@@ -20,4 +20,9 @@ Let's start by adding a `set sparkle 1 to`{:class="crumblesparkles"} block to si
 
 ![Code second Sparkle](images/SparkleTwoLoop.png)
 
+Predict what this code will do when you run it.
+
+Run your code and see if you were right.
+
 --- /task ---
+
