@@ -46,7 +46,7 @@ title: What you will learn
 
 + How to set up a Crumble controller and Crumble Sparkle RGB LEDs
 + How to code an RGB LED's colour using Crumble software
-+ How to use a repeat loop
++ How to use a repeat loop to create a repeating colour sequence
 
 --- /collapse ---
 
