@@ -46,12 +46,12 @@ You may have different colours and possibly different wait times, but your Spark
 
 In my sequence, the sequence ends at the third colour because I only put in three. Perhaps you used four, five or even more!
 
-Next, we are going to make our pattern carry on for longer by using a `10 times`{:class="crumblecontrol"} loop. Everything inside our `10 times`{:class="crumblecontrol"} loop will happen as many times as we say, or we can use a `10 times forever`{:class="crumblecontrol"} loop to make it keep going for as long as the program is running or the batteries run out!
+Next, we are going to make our pattern carry on for longer by using a `repeat`{:class="crumblecontrol"} loop. Everything inside our `repeat`{:class="crumblecontrol"} loop will happen as many times as we say, or we can use a `repeat forever`{:class="crumblecontrol"} loop to make it keep going for as long as the program is running or the batteries run out!
 
-In the Crumble software, a `10 times`{:class="crumblecontrol"} loop is written as a `do`{:class="crumblecontrol"} loop because when we code something to `repeat 10 times`{:class="crumblecontrol"}, we are telling it to `do something 10 times`{:class="crumblecontrol"}.
+In the Crumble software, a `repeat`{:class="crumblecontrol"} loop is written as a `do`{:class="crumblecontrol"} loop because when we code something to `repeat 10 times`{:class="crumblecontrol"}, we are telling it to `do something 10 times`{:class="crumblecontrol"}.
 
 --- task ---
 
-Pull your colour sequence code away from the url
+Pull your colour sequence code away from the 
 
 --- /task ---
