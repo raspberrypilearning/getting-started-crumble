@@ -42,3 +42,16 @@ Now run your code again and check that it works.
 
 We didn't really need the last `wait`{:class="crumblecontrol"} block, but we will need it for what comes next.
 
+You may have different colours and possibly different wait times, but your Sparkle should have turned from the first colour (mine was red) to the second (green in my sequence) to your third colour.
+
+In my sequence, the sequence ends at the third colour because I only put in three. Perhaps you used four, five or even more!
+
+Next, we are going to make our pattern carry on for longer by using a `10 times`{:class="crumblecontrol"} loop. Everything inside our `10 times`{:class="crumblecontrol"} loop will happen as many times as we say, or we can use a `10 times forever`{:class="crumblecontrol"} loop to make it keep going for as long as the program is running or the batteries run out!
+
+In the Crumble software, a `10 times`{:class="crumblecontrol"} loop is written as a `do`{:class="crumblecontrol"} loop because when we code something to `repeat 10 times`{:class="crumblecontrol"}, we are telling it to `do something 10 times`{:class="crumblecontrol"}.
+
+--- task ---
+
+Pull your colour sequence code away from the url
+
+--- /task ---
