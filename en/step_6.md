@@ -40,18 +40,30 @@ Now run your code again and check that it works.
 
 --- /task ---
 
+Your Sparkle should light up with each of the different colours that you have programmed and then stop on your last colour.
+
 We didn't really need the last `wait`{:class="crumblecontrol"} block, but we will need it for what comes next.
 
-You may have different colours and possibly different wait times, but your Sparkle should have turned from the first colour (mine was red) to the second (green in my sequence) to your third colour.
+Next, we are going to make our pattern carry on for longer by using a `repeat`{:class="crumblecontrol"} loop. 
 
-In my sequence, the sequence ends at the third colour because I only put in three. Perhaps you used four, five or even more!
+Everything inside our `repeat`{:class="crumblecontrol"} loop will happen as many times as we say, or we can use a `repeat forever`{:class="crumblecontrol"} loop to make it keep going for as long as the program is running or the batteries run out!
 
-Next, we are going to make our pattern carry on for longer by using a `repeat`{:class="crumblecontrol"} loop. Everything inside our `repeat`{:class="crumblecontrol"} loop will happen as many times as we say, or we can use a `repeat forever`{:class="crumblecontrol"} loop to make it keep going for as long as the program is running or the batteries run out!
-
-In the Crumble software, a `repeat`{:class="crumblecontrol"} loop is written as a `do`{:class="crumblecontrol"} loop because when we code something to `repeat 10 times`{:class="crumblecontrol"}, we are telling it to `do something 10 times`{:class="crumblecontrol"}.
+In the Crumble software, a `repeat`{:class="crumblecontrol"} loop is written as a `do`{:class="crumblecontrol"} loop because we are coding what to `do`{:class="crumblecontrol"} and how many times to do it.
 
 --- task ---
 
-Pull your colour sequence code away from the 
+Pull your colour sequence code away from the `program start`{:class="crumblebasic"} block.
+
+Grab a `do 10 times`{:class="crumblecontrol"} loop block from the `control`{:class="crumblecontrol"} block palette and connect it under the `program start`{:class="crumblebasic"} block.
+
+Now connect your colour sequence code inside the `do 10 times`{:class="crumblecontrol"} loop block.
+
+![Repeat colour sequence 10 times code](images/sequenceLoop.png)
+
+If you like,  you can change the number of times in the `do 10 times`{:class="crumblecontrol"} loop block to change the number of times your colour sequence will repeat.
+
+Run your code to test it.
 
 --- /task ---
+
+How can you make your Sparkle turn off automatically after the last repeat cycle?
