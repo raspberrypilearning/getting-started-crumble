@@ -66,4 +66,16 @@ Run your code to test it.
 
 --- /task ---
 
+--- no-print ---
+
+![Sparkle colour sequence loop](images/SparkleRepeatLoop.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Sparkle colour sequence loop](images/SparkleRepeatLoop.jpg)
+
+--- /print-only ---
+
 How can you make your Sparkle turn off automatically after the last repeat cycle?
