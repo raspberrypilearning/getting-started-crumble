@@ -1,6 +1,6 @@
 ## LEDs
 
-Crumble Sparkles are great but sometimes you may want to use just an ordinary LED or use a mix of Sparkles and LEDs.
+Crumble Sparkles are great but sometimes you may want to just use an ordinary LED or use a mix of Sparkles and LEDs.
 
 LEDs can be connected directly to the Crumble controller board and don't even need battery power while the Crumble is connected to your computer!
 
@@ -10,7 +10,7 @@ LEDs (light emitting diodes) have two legs. The longer leg (anode) must connect 
 
 --- task ---
 
-Take an LED and use a crocodile clip lead to connect between the Crumble controller's negative output (on the right hand side) and the LED's cathode (shorter, negative leg).
+Use a crocodile clip lead to connect between the Crumble controller's negative output (on the right hand side) and the LED's cathode (shorter, negative leg).
 
 Then connect another crocodile lead between the 'A' terminal on the Crumble and the LED's anode (longer, positive leg).
 
@@ -23,6 +23,12 @@ Note: The LED would also work connected to B, C or D terminals but in this examp
 --- task ---
 
 Open up the Crumble software and start, as always, with a `program start`{:class="crumblebasic"} block.
+
+To turn the LED on and off we use the `set`{:class="crumbleinputoutput"} block from the `Input/Output`{:class="crumbleinputoutput"} palette.
+
+Drag the `set A HI`{:class="crumbleinputoutput"} block out and connect it under the `program start`{:class="crumblebasic"} block.
+
+![Code to turn LED on](images/turnOnLedCode.png)
 
 --- /task ---
 
