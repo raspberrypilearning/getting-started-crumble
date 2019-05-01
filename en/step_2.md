@@ -27,13 +27,13 @@ If you do not get any connection try a different USB port.
 
 --- /task ---
 
-Next, we need to connect power to the Crumble. This will supply power to the Crumble when it is not plugged in to your computer and also power any components that we attach.
+After that, we need to connect power to the Crumble. This will supply power to the Crumble when it is not plugged in to your computer and also power any components that we attach.
 
 --- task ---
 
-The Crumble starter kit comes with a 3xAA battery box with a switch and crocodile-friendly output connections.
+The Crumble starter kit comes with a fantastic 3xAA battery box with an on/off switch and crocodile-friendly output connections.
 
-Connect crocodile clips to the positive (shown with a '+' symbol) and negative (shown with a '-' symbol) outputs of the battery box and connect these to the positive and negative terminals (in this case, the gold coloured holes) on the left side of the Crumble controller.
+Connect crocodile clips to the positive (shown with a '+' symbol) and negative (shown with a '-' symbol) outputs of the battery box and connect these to the positive and negative terminals (the gold coloured holes) on the left side of the Crumble controller.
 
 ![connecting battery power to a Crumble](images/batterypack.jpg)
 
