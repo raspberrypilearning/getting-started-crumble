@@ -1,4 +1,4 @@
-## Connecting a Sparkle
+## Crumble Sparkles
 
 Crumble Sparkles are RGB LEDs made specially to be used with the Crumble controller.
 
