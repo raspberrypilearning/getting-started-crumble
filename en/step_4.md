@@ -1,82 +1,28 @@
-## First Sparkle code
+## LEDs
 
-Before we code, lets have a quick look at the Crumble software programming environment.
+Crumble Sparkles are great but sometimes you may want to use just an ordinary LED or use a mix of Sparkles and LEDs.
 
-![Crumble software programming environment](images/crumbleEnvironmentBlack.png)
+LEDs can be connected directly to the Crumble controller board and don't even need battery power while the Crumble is connected to your computer!
 
-It is a blockly language a little like Scratch but in Crumble there are only six block palettes and only one starting block, the 'program start' block.
+![Annotated LED](images/annotated LED.png)
 
-Let's start coding!
-
---- task ---
-
-Drag the `program start`{:class="crumblebasic"} block into your workspace.
-
-![The Crumble program start block](images/programStart.jpg)
-
---- /task ---
-
-Everything that you connect underneath the `program start`{:class="crumblebasic"} block will run.
-
-Any blocks in your workspace that are not connected to the `program start`{:class="crumblebasic"} block will not run.
+LEDs (light emitting diodes) have two legs. The longer leg (anode) must connect to the positive power supply while the shorter leg (cathode) must connect tot he negative or ground. If you get these the wrong way round it will not damage the LED but the LED will not light up.
 
 --- task ---
 
-Click on the `Sparkles`{:class="crumblesparkles"} palette to have a look at what Sparkle coding blocks we can use.
+Take an LED and use a crocodile clip lead to connect between the Crumble controller's negative output (on the right hand side) and the LED's cathode (shorter, negative leg).
 
-![The Sparkle block palette](images/sparkleBlocks.jpg)
+Then connect another crocodile lead between the 'A' terminal on the Crumble and the LED's anode (longer, positive leg).
 
 --- /task ---
 
-There are three different types of Sparkle block that we can use.
+That's it! Easy as that! So now we are ready to control the LED with code.
 
-`set sparkle to`{:class="crumblesparkles"} with a colour picker box, `turn sparkle off`{:class="crumblesparkles"}, and `set sparkle to`{:class="crumblesparkles"} a colour by giving individual red, green and blue values.
-
-Each of these has a version for a specific Sparkle and another for ALL Sparkles!
+Note: The LED would also work connected to B, C or D terminals but in this example we will just use the A terminal.
 
 --- task ---
 
-Drag a `set sparkle to`{:class="crumblesparkles"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="crumblebasic"} block.
-
-![Add a set Sparkle block](images/setSparkleBlocksBox.jpg)
+Open up the Crumble software and start, as always, with a `program start`{:class="crumblebasic"} block.
 
 --- /task ---
-
---- task ---
-
-Click on the colour picker box (this is always red by default) and a colour picker will appear.
-
-![Colour picker on Windows version](images/winColPick.jpg)
-
-Choose a colour for your Sparkle by clicking in the large square colour selector or picking one of the 'Basic colours'.
-
---- /task ---
-
-On different devices, the colour picker is quite different.
-
-On a Mac for example, there are five different colour picker options!
-
-![Colour picker on Mac OSX version](images/macColPick.jpg)
-Here are three of the different ways that you can colour pick using the Mac OSX version of Crumble.
-
-We've got our `program start`{:class="crumblebasic"} block, we've `set sparkle to`{:class="crumblesparkles"} a colour of our choice. That's it, we are ready to run our code!
-
---- task ---
-
-Press the green 'play' triangle to run your code.
-
---- no-print ---
-
-![Running your first Crumble Sparkle program](images/crumble_first_sparkle.gif)
-
---- /no-print ---
-
---- print-only ---
-
-![Running your first Crumble Sparkle program](images/crumble_first_sparkle_noPrint.jpg)
-
---- /print-only ---
-
---- /task ---
-
 

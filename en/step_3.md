@@ -44,6 +44,8 @@ Use a final crocodile clip to connect from the 'D' terminal on the right side of
 
 Great! Our Sparkle is fully connected and it is time to light the lights!
 
+### Your first Crumble code
+
 Before we code, lets have a quick look at the Crumble software programming environment.
 
 ![Crumble software programming environment](images/crumbleEnvironmentBlack.png)

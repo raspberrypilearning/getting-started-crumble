@@ -9,7 +9,7 @@ steps:
   - title: Introduction
   - title: Setting up the Crumble controller
   - title: Crumble Sparkles
-  - title: First Sparkle code
+  - title: LEDs
   - title: More Sparkle with RGB colour code
   - title: Colour sequences
   - title: Two Sparkle sequencing
