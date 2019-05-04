@@ -28,7 +28,37 @@ To turn the LED on and off we use the `set`{:class="crumbleinputoutput"} block f
 
 Drag the `set A HI`{:class="crumbleinputoutput"} block out and connect it under the `program start`{:class="crumblebasic"} block.
 
+
 ![Code to turn LED on](images/turnOnLedCode.png)
+
+
+Now to test the code. Run your code by clicking the green 'run' arrow.
+
+--- no-print ---
+
+## Video of green arrow being clicked and LED lighting
+![Running code to light LED](images/green_arrow_LED_light.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+## Image of green arrow being clicked and LED lighting
+![Running code to light LED](images/green_arrow_LED_light.png)
+
+--- /print-only ---
+
+--- /task ---
+
+So that has turned the LED on. Now to turn it off again.
+
+--- task ---
+
+To change out code to turn the LED off, simply change the `set A HI`{:class="crumbleinputoutput"} block to `set A LO`{:class="crumbleinputoutput"} by clicking on the `HI`{:class="crumbleinputoutput"}. You will notice that clicking here toggles between `HI`{:class="crumbleinputoutput"} and `LO`{:class="crumbleinputoutput"}.
+
+Now test the code works by clicking the green 'run' arrow.
+
+![Green ruun arrow](images/green_run_arrow.png)
 
 --- /task ---
 

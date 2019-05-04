@@ -10,7 +10,8 @@ steps:
   - title: Setting up the Crumble controller
   - title: Crumble Sparkles
   - title: LEDs
-  - title: More Sparkle with RGB colour code
+  - title: "Challenge: flashing LED"
+    challenge: true
   - title: Colour sequences
   - title: Two Sparkle sequencing
   - title: "Challenge: follow me colour sequence"
