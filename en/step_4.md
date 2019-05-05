@@ -36,14 +36,12 @@ Now to test the code. Run your code by clicking the green 'run' arrow.
 
 --- no-print ---
 
-## Video of green arrow being clicked and LED lighting
 ![Running code to light LED](images/green_arrow_LED_light.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-## Image of green arrow being clicked and LED lighting
 ![Running code to light LED](images/green_arrow_LED_light.png)
 
 --- /print-only ---
@@ -58,7 +56,17 @@ To change out code to turn the LED off, simply change the `set A HI`{:class="cru
 
 Now test the code works by clicking the green 'run' arrow.
 
-![Green ruun arrow](images/green_run_arrow.png)
+--- no-print ---
+
+![Running code to light LED](images/green_arrow_LED_light_off.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Running code to light LED](images/green_arrow_LED_light_off.png)
+
+--- /print-only ---
 
 --- /task ---
 
