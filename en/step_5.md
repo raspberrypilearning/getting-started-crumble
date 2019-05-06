@@ -4,14 +4,12 @@ Can you write code that will make your LED flash on and off?
 
 --- no-print ---
 
-## Video of LED flashing
 ![Flashing LED](images/flashing_LED.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-## Image of LED flashing
 ![Flashing LED](images/flashing_LED.png)
 
 --- /print-only ---
