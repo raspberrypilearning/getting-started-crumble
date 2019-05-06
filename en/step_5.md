@@ -29,6 +29,8 @@ Use code so that when the `program starts`{:class="crumblebasic"}, the LED `turn
 
 When using repeat loops, remember that the first block in the loop will at some point come right after the last block.
 
+Use the blocks below to make flashing LED code.
+
 ![Crumble blocks needed for a flashing LED](images/flashing_LED_parsons.png)
 
 --- /hint ---
@@ -36,6 +38,8 @@ When using repeat loops, remember that the first block in the loop will at some 
 --- hint ---
 
 You need a `wait`{:class="crumblecontrol"} after every `on`{:class="crumbleinputoutput"} or `off`{:class="crumbleinputoutput"} block.
+
+Test the code below and see if it does what you expect.
 
 ![flashing LED code solution](images/flashing_LED_code_solution.png)
 
