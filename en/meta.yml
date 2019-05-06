@@ -12,8 +12,8 @@ steps:
   - title: LEDs
   - title: "Challenge: flashing LED"
     challenge: true
-  - title: Colour sequences
-  - title: Two Sparkle sequencing
-  - title: "Challenge: follow me colour sequence"
+  - title: Gear motors
+  - title: Servos
+  - title: "Challenge: Servo random position generator"
     challenge: true
-  - title: Sparkle creations 
+  - title: Button switches 
