@@ -58,7 +58,7 @@ Tip: Sticking something on the end of the motor shaft makes it much easier to te
 
 --- /task ---
 
-As we have seen, presing the red 'stop' button will end the program and stop the motor but we can also stop the motor using code.
+As we have seen, pressing the red 'stop' button will end the program and stop the motor but we can also stop the motor using code.
 
 Clicking on the `FORWARD`{:class="crumbleinputoutput"} part of the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block will toggle between `FORWARD`{:class="crumbleinputoutput"}, `REVERSE`{:class="crumbleinputoutput"} and `STOP`{:class="crumbleinputoutput"}.
  
