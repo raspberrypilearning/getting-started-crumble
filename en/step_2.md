@@ -2,8 +2,6 @@
 
 The Crumble controller board uses a custom-made blockly programming language that you will need installed on your PC, Mac, Chromebook or Linux device. 
 
-[[[installing-crumble-software-mac]]]
-
 `A SLECTION OF INGREDIENTS TO BE CREATED AND PUT HERE FOR EACH DIFFERENT PLATFORM`{:class="crumblesparkles"}
 
 Once you have the Crumble software installed, the next thing to do is to connect your Crumble controller board (the white circuit board with 12 gold terminal holes) to your computer.
