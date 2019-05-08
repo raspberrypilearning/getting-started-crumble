@@ -12,7 +12,7 @@ steps:
   - title: LEDs
   - title: "Challenge: flashing LED"
     challenge: true
-  - title: Gear motors
+  - title: Motors
   - title: Servos
   - title: "Challenge: Servo random position generator"
     challenge: true
