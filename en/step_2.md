@@ -4,6 +4,7 @@ The Crumble controller board uses a custom-made blockly programming language tha
 
 [[[installing-crumble-software-windows-os]]]
 
+[[[installing-crumble-software-mac]]]
 
 `A SLECTION OF INGREDIENTS TO BE CREATED AND PUT HERE FOR EACH DIFFERENT PLATFORM`{:class="crumblesparkles"}
 
