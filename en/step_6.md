@@ -52,6 +52,8 @@ Now click the green 'run' triangle to test your code.
 
 When the 'run' button is pressed, the motor will spin. When the red 'stop' square is pressed the program ends and the motor will stop.
 
+Tip: Sticking something on the end of the motor shaft makes it much easier to tell when the motor is spinning.
+
 --- /print-only ---
 
 --- /task ---
