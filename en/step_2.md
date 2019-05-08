@@ -4,9 +4,9 @@
 
 The Crumble controller board uses a custom-made blockly programming language that you will need installed on your PC, Mac, Chromebook or Linux device. 
 
-[[[sonic-pi-install]]]
+[[[installing-crumble-software-windows-os]]]
 
-installing-crumble-software-windows-os
+[[[installing-crumble-software-mac]]]
 
 `A SLECTION OF INGREDIENTS TO BE CREATED AND PUT HERE FOR EACH DIFFERENT PLATFORM`{:class="crumblesparkles"}
 
