@@ -1,6 +1,8 @@
 ## Setting up the Crumble controller
 
-If you don't already have Crumble software installed on your PC, Mac, Chromebook or Linux device, look at the relevant section below to download and install Crumble.
+The Crumble controller board uses a custom-made blockly programming language that you will need installed on your PC, Mac, Chromebook or Linux device. 
+
+[[[install-crumble-software-mac]]]
 
 `A SLECTION OF INGREDIENTS TO BE CREATED AND PUT HERE FOR EACH DIFFERENT PLATFORM`{:class="crumblesparkles"}
 
