@@ -40,9 +40,18 @@ Just so we don't have the motor jumping all over the table, let's change the pow
 
 Now click the green 'run' triangle to test your code.
 
+--- no-print ---
 
+![Running motor forward program](images/Crumble_motor_forward.gif)
 
+--- /no-print ---
 
+--- print-only ---
 
+![Running motor forward program](images/Crumble_motor_forward.png)
+
+When the 'run' button is pressed, the motor will spin. When the red 'stop' square is pressed the program ends and the motor will stop.
+
+--- /print-only ---
 
 --- /task ---
