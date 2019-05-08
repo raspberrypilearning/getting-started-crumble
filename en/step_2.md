@@ -1,5 +1,7 @@
 ## Setting up the Crumble controller
 
+### Crumble software
+
 The Crumble controller board uses a custom-made blockly programming language that you will need installed on your PC, Mac, Chromebook or Linux device. 
 
 [[[installing-crumble-software-windows-os]]]
