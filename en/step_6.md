@@ -73,3 +73,42 @@ Clicking on the `FORWARD`{:class="crumbleinputoutput"} part of the `motor 1 FORW
 ![Toggle motor control](images/crumble_motor_direction_toggle.png)
 
 --- /print-only ---
+
+Now let's get a bit creative with our motor! Let's code a program that will tell the motor to go forward, then stop, go in reverse, then stop, and then repeat all of that three times.
+
+--- task ---
+
+Building on the program that we already have, grab a `wait 1.0 seconds`{:class="crumblecontrol"} block from the `Control`{:class="crumblecontrol"} blocks palette, and add it under the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block.
+
+Get another `motor`{:class="crumbleinputoutput"} block and toggle the direction so it becomes a `motor 1 STOP`{:class="crumbleinputoutput"} block, and add it under the `wait`{:class="crumblecontrol"} block.
+
+Next, we'll add another `wait`{:class="crumblecontrol"} block but this time get a `wait 100 milliseconds`{:class="crumblecontrol"} block, and connect under the `motor 1 STOP`{:class="crumbleinputoutput"} block.
+
+Note: Since 1,000 milliseconds = 1 second, 100 millseconds is one tenth of a second. This means that a `wait 100 milliseconds`{:class="crumblecontrol"} block and a `wait 0.1 seconds`{:class="crumblecontrol"} block do exactly the same thing. Take your pick!
+
+So that is the motor start and motor stop section. The next section is the same except going in reverse rather than forward. The quickest way to do this is to copy the blocks we have.
+
+ --- no-print ---
+
+![Duplicating code blocks](images/duplicate_blocks.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Duplicating code blocks](images/duplicate_blocks.png)
+
+--- /print-only ---
+
+Right-click on the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block and choose 'Duplicate'. This copies that blocks and the three blocks below. Connect the blocks under the code you already have and toggle the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} so it reads `motor 1 REVERSE at 25%`{:class="crumbleinputoutput"}.
+
+Finally, get a `do 10 times`{:class="crumblecontrol"} loop block and put your code inside this (except the `program start`{:class="crumblebasic"} block which always starts our code, of course.)
+
+Your code should now look like this...
+
+![motor control code](images/crumble_motor_start_stop_code.png)
+
+Now, run your code and check that it does what you expect.
+
+
+--- /task ---
