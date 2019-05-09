@@ -110,5 +110,18 @@ Your code should now look like this...
 
 Now, run your code and check that it does what you expect.
 
+ --- no-print ---
+
+![Motor running forward then reverse](images/crumble_motor_start_stop.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Motor running forward then reverse](images/crumble_motor_start_stop.png)
+
+The motor should run forwards, stop, reverse, stop, and repeat three times.
+
+--- /print-only ---
 
 --- /task ---
