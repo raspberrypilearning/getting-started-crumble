@@ -82,13 +82,16 @@ Building on the program that we already have, grab a `wait 1.0 seconds`{:class="
 
 ![Add a wait](images/motorstage1.png)
 
+
 Get another `motor`{:class="crumbleinputoutput"} block and toggle the direction so it becomes a `motor 1 STOP`{:class="crumbleinputoutput"} block, and add it under the `wait`{:class="crumblecontrol"} block.
 
 ![Add a motor stop](images/motorstage2.png)
 
+
 Next, we'll add another `wait`{:class="crumblecontrol"} block but this time get a `wait 100 milliseconds`{:class="crumblecontrol"} block, and connect under the `motor 1 STOP`{:class="crumbleinputoutput"} block.
 
 ![Add a wait](images/motorstage3.png)
+
 
 Note: Since 1,000 milliseconds = 1 second, 100 millseconds is one tenth of a second. This means that a `wait 100 milliseconds`{:class="crumblecontrol"} block and a `wait 0.1 seconds`{:class="crumblecontrol"} block do exactly the same thing. Take your pick!
 
@@ -109,6 +112,7 @@ So that is the motor start and motor stop section. The next section is the same 
 Right-click on the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block and choose 'Duplicate'. This copies that blocks and the three blocks below. Connect the blocks under the code you already have and toggle the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} so it reads `motor 1 REVERSE at 25%`{:class="crumbleinputoutput"}.
 
 ![Duplicate the code so far](images/motorstage4.png)
+
 
 Finally, get a `do 10 times`{:class="crumblecontrol"} loop block and put your code inside this (except the `program start`{:class="crumblebasic"} block which always starts our code, of course). Change the number of repeats from 10 to 3.
 
