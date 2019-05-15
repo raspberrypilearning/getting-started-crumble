@@ -32,8 +32,6 @@ Can you rearrange them to make the code work?
 
 ![Random servo position Parsons problem](images/random_servo_parsons.png)
 
-Click the green 'play' button to see if it works as you expect.
-
 --- /hint ---
 
 --- hint ---
@@ -41,6 +39,8 @@ Click the green 'play' button to see if it works as you expect.
 Arrange the code blocks to make the code below:
 
 ![Random servo position code solution](images/random_servo_solution.png)
+
+Click the green 'play' button to see if it works as you expect.
 
 --- /hint ---
 

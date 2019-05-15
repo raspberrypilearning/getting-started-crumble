@@ -14,11 +14,15 @@ Let's connect up our switch.
 
 --- task ---
 
-Blah blah blah
+First, let's connect positive power to the switch. Connect a croc clip from the positive (+) terminal of the Crumble at the top right corner to one side of the Crumble button switch (either side will do).
 
-[Connecting a button switch to your Crumble](images/switch_to_crumble.png)
+Next, we connect another croc clip from terminal A to the other side of the Crumble button switch. You could also use terminals B, C or D for switches.
+
+![Connecting a button switch to your Crumble](images/switch_to_crumble.png)
 
 --- /task ---
+
+Now that it is connected, when the button is pressed terminal A is HI (on), and when the button is released terminal A is LO (off).
 
 And now let's write some code.
 
@@ -28,9 +32,25 @@ As ever, we start with the `program start`{:class="crumblebasic"} block.
 
 Next, we need to ask a question about what state the button is in. Is the button in its on or off state?
 
-*******************************************.
+from the `control`{:class="crumblecontrol"} palette, grab the `if... then`{:class="crumblecontrol"} block.
 
-[Button switch code with no output](images/switch_code_no_output.png)
+![If... then block](images/if_then_block.png)
+
+From the `Input/Output`{:class="crumbleinputoutput"} block palette, get an `A is HI`{:class="crumbleinputoutput"} block and place it inside the hexagonal space in the `if... then`{:class="crumblecontrol"} block.
+
+--- no-print ---
+
+![Inserting button blocks into IF statement blocks](images/AtoHI_in_if.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Inserting button blocks into IF statement blocks](images/button_if_then_code_noForever.png)
+
+--- /print-only ---
+
+![Button switch code with no output](images/button_if_then_code_noOutput.png)
 
 --- /task ---
 
@@ -46,7 +66,7 @@ Now let's use our Crumble Sparkle output by adding some code.
 
 Inside the conditional statement, add `set sparkle to *********`{:class="crumblesparkles"} from the `Sparkles`{:class="crumblesparkles"} palette.
 
-[Button switch code with output](images/switch_code_with_output.png)
+![Button switch code with output](images/switch_code_with_output.png)
 
 Now our code reads, when the `program starts`{:class="crumblebasic"}, `if`{:class="crumblecontrol"} `the switch is on`{:class="crumbleinputoutput"} `then`{:class="crumblecontrol"} `make sparkle light up *********`{:class="crumblesparkles"}. 
 
