@@ -41,7 +41,7 @@ That's enough to get our servo to work in the most basic way. Click on the green
 
 --- print-only ---
 
-![Servo movement](images/servo_movement_0.png)
+![Servo movement](images/servo_movement_0b.png)
 
 --- /print-only ---
 
@@ -71,7 +71,7 @@ Click on the green 'play' button to see you servo move to 0° and then to 180° 
 
 --- print-only ---
 
-![Servo movement](images/servo_movement_-90_90.png)
+![Servo movement](images/servo_movement_-90_90b.png)
 
 --- /print-only ---
 
