@@ -4,6 +4,18 @@ Can you write code to make your servo keep moving to random positions?
 
 Remember that the servo will need a little time to get to each position before going to a new random position.
 
+--- no-print ---
+
+![Random servo movement](images/random_servo_movement.gif)
+
+--- /no-print ---
+
+--- print-only ---
+
+![Random servo movement](images/random_servo_movement.png)
+
+--- /print-only ---
+
 --- hints ---
 
 --- hint ---
@@ -20,6 +32,8 @@ Can you rearrange them to make the code work?
 
 ![Random servo position Parsons problem](images/random_servo_parsons.png)
 
+Click the green 'play' button to see if it works as you expect.
+
 --- /hint ---
 
 --- hint ---
@@ -31,15 +45,3 @@ Arrange the code blocks to make the code below:
 --- /hint ---
 
 --- /hints ---
-
---- no-print ---
-
-![Random servo movement](images/random_servo_movement.gif)
-
---- /no-print ---
-
---- print-only ---
-
-![Random servo movement](images/random_servo_movement.png)
-
---- /print-only ---
