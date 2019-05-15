@@ -2,7 +2,7 @@
 
 The Crumble starter kit come with a great little Crumble friendly button switch but you could use any switch as long as you can connect to the switches terminals.
 
-[Some switches](images/switch_selection.png)
+![Some switches](images/switch_selection.png)
 
 Note: different switches work in different ways. We mostly think of switches as standard on/off switches but some are push to make (when you press them the switch is on but as soon as you stop pressing, the switch is off) and some are even push to break (on unless being pressed). The Crumble starter kit button switch is push to make.
 
@@ -50,31 +50,47 @@ From the `Input/Output`{:class="crumbleinputoutput"} block palette, get an `A is
 
 --- /print-only ---
 
+That's great but at the moment, the program only checks `if`{:class="crumblecontrol"} the button is being pressed at the moment the program starts. We want it to keep on checking so we need to put our `if`{:class="crumblecontrol"} statement, our conditional statement, in a `do forever`{:class="crumblecontrol"} loop so that it checks the button the whole time the program is running.
+
 ![Button switch code with no output](images/button_if_then_code_noOutput.png)
 
 --- /task ---
 
 Of course, we now need an output for the Crumble to be able to indicate the result of the input, or whether the switch is on or off.
 
-You can use any input for this depending on your project, but for now, let's use a Crumble Sparkle.
+You can use any input for this depending on your project, but for now, let's use a motor. If you don't have a motor to hand feel free to use any other input.
 
 --- task ---
 
-Connect up a Crumble Sparkle as we did earlier in the project. Positive to positive, negative to negative and D to the D terminal of the Crumble. Rememmber that Sparkles only work with the D terminal! If you need a little more help, look **************************.
+Connect up a DC motor as we did earlier in the project but using motor output 2 on the bottom right-hand side of the Crumble. If you need a reminder, look ***********REF***************.
 
-Now let's use our Crumble Sparkle output by adding some code.
+Now let's use our DC motor output by adding some code.
 
-Inside the conditional statement, add `set sparkle to *********`{:class="crumblesparkles"} from the `Sparkles`{:class="crumblesparkles"} palette.
+Inside the conditional statement, add `motor 2 FORWARD at 50%`{:class="crumbleinputoutput"} from the `Input/Output`{:class="crumbleinputoutput"} palette.
 
 ![Button switch code with output](images/switch_code_with_output.png)
 
-Now our code reads, when the `program starts`{:class="crumblebasic"}, `if`{:class="crumblecontrol"} `the switch is on`{:class="crumbleinputoutput"} `then`{:class="crumblecontrol"} `make sparkle light up *********`{:class="crumblesparkles"}. 
+Now our code reads, when the `program starts`{:class="crumblebasic"}, `if`{:class="crumblecontrol"} `the switch is on`{:class="crumbleinputoutput"} `then`{:class="crumblecontrol"} `turn motor output 2 on at 50% speed`{:class="crumblesparkles"}. 
+
+![Code to set motor running if the button is pressed](images/button_if_then_code.png)
 
 --- /task ---
 
-At the moment, if the switch is off then the sparkle won't do anything because we have not told it to do anything. Let's fix that right away!
+At the moment, if the switch is off then the motor is not being told it to do anything so when we stop pressing the button switch the motor will keep on going.  Let's fix that right away!
 
 --- task ---
+
+Start by pulling the `if... then`{:class="crumblecontrol"} block out of the `do forever`{:class="crumblecontrol"} loop. Now get a `if... then... else`{:class="crumblecontrol"} block and place that inside the `do forever`{:class="crumblecontrol"} loop instead.
+
+![If... then... else block](images/if_then_else_block.png)
+
+The first gap, after the `then`{:class="crumblecontrol"} tells the Crumble what to do if the condition, e.g. `A is HI`{:class="crumbleinputoutput"} is true (the button is being pressed) while the second gap, after the `else`{:class="crumblecontrol"} tells the Crumble what to do if the condition is not true (the button is not being pressed).
+
+Take the blocks out from the `if... then`{:class="crumblecontrol"} block we were using and put them in our new `if... then... else`{:class="crumblecontrol"} block.
+
+Now add a new instruction in the gap under `else`{:class="crumblecontrol"} saying `motor 2 STOP`{:class="crumbleinputoutput"}.
+
+![Code to set motor running or stopping if the button is pressed](images/button_if_then_else_code.png)
 
 ## Add a section to say else turn sparkle off
 
