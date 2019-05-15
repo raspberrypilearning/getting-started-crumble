@@ -16,7 +16,7 @@ Note: While most servos are position servo, you also get almost identical lookin
 
 --- task ---
 
-Connect your servo to your Crumble using the steps below according to what components you have available.
+Connect your servo to your Crumble using the steps below according to your chosen method or what components you have available.
 
 ??? --- servo to Crumbliser to Crumble ---> ingredient ???
 ??? --- servo to jumper to croc to Crumble ---> ingredient ???
