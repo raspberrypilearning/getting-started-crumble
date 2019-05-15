@@ -57,7 +57,7 @@ First, change the `0`{:class="crumbleinputoutput"} of your `servo A 0 degrees`{:
 
 Add another `servo A 0 degrees`{:class="crumbleinputoutput"} block to the bottom of your code, and change the `0`{:class="crumbleinputoutput"} to `90`{:class="crumbleinputoutput"}.
 
-Of course the servo will need time to move between -90° and 90° so we neeed to add a `wait`{:class="crumblecontrol"} block between the two `servo A position`{:class="crumbleinputoutput"} blocks. Let's make it a half second delay, or `wait 0.5 seconds`{:class="crumblecontrol"}.
+Of course the servo will need time to move between -90° and 90° so we neeed to add a `wait`{:class="crumblecontrol"} block between the two `servo A position`{:class="crumbleinputoutput"} blocks. Let's make it a one second delay, `wait 1.0 seconds`{:class="crumblecontrol"}.
 
 ![Two position servo code](images/servo_code_-90_to_90.png)
 
