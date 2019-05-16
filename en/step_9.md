@@ -2,7 +2,7 @@
 
 The Crumble starter kit come with a great little Crumble friendly button switch but you could use any switch as long as you can connect to the switches terminals.
 
-![Some switches](images/switch_selection.png)
+![Some switches](images/switch_selection2.png)
 
 Note: different switches work in different ways. We mostly think of switches as standard on/off switches but some are push to make (when you press them the switch is on but as soon as you stop pressing, the switch is off) and some are even push to break (on unless being pressed). The Crumble starter kit button switch is push to make.
 
