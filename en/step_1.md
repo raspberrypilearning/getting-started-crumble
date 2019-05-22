@@ -7,16 +7,11 @@ In this first Crumble project you will learn to setup a Crumble controller, conn
 ### What you will make
 
 --- no-print ---
-
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="600" height="402" src="https://scratch.mit.edu/projects/embed/293810915/?autostart=false" frameborder="0"></iframe>
-</div>
-
+![Crumble and some common components](images/crumble_intro.gif)
 --- /no-print ---
 
 --- print-only ---
-![A disappointing lack of image!](images/noImageHereYet.png)
+![Crumble and some common components](images/crumble_intro.png)
 --- /print-only ---
 
 --- collapse ---
