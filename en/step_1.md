@@ -9,7 +9,7 @@ In this first Crumble project you will learn to setup a Crumble controller, conn
 In this first Crumble project you will learn to setup a Crumble controller, connect a range of common physical computing components such as motors and LEDs, and write simple Crumble codes to make each of them work.
 
 --- no-print ---
-![Crumble and some common components](images/crumble_intro.gif)
+![Crumble and some common components](images/crumble_introb.gif)
 --- /no-print ---
 
 --- print-only ---
