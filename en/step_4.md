@@ -50,11 +50,11 @@ Now to test the code. Run your code by clicking the green 'run' arrow.
 
 --- /task ---
 
-So that has turned the LED on. Now to turn it off again.
+Now that you have turned the LED on, it's time to turn it off again.
 
 --- task ---
 
-To change out code to turn the LED off, simply change the `set A HI`{:class="crumbleinputoutput"} block to `set A LO`{:class="crumbleinputoutput"} by clicking on the `HI`{:class="crumbleinputoutput"}. You will notice that clicking here toggles between `HI`{:class="crumbleinputoutput"} and `LO`{:class="crumbleinputoutput"}.
+To change our code to turn the LED off, simply change the `set A HI`{:class="crumbleinputoutput"} block to `set A LO`{:class="crumbleinputoutput"} by clicking on the `HI`{:class="crumbleinputoutput"}. You will notice that clicking here toggles between `HI`{:class="crumbleinputoutput"} and `LO`{:class="crumbleinputoutput"}.
 
 Now test the code works by clicking the green 'run' arrow.
 
