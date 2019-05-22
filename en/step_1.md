@@ -2,8 +2,6 @@
 
 A crumble controller is a very low-cost electronics controller that connects to a computer using a USB cable. Components like LEDs, switches, motors and servos can be connected using crocodile leads and can be programmed using Crumble’s free software.
 
-In this first Crumble project you will learn to setup a Crumble controller, connect a range of common physical computing components such as motors and LEDs, and write simple Crumble codes to make each of them work.
-
 ### What you will make
 
 In this first Crumble project you will learn to setup a Crumble controller, connect a range of common physical computing components such as motors and LEDs, and write simple Crumble codes to make each of them work.
