@@ -122,5 +122,7 @@ Try clicking the green 'play' button and see what happens. When the button is pr
 
 --- /task ---
 
+Congratulations! You have now connected a range of components to your Crumble and written code for each! Now that you know all that, what do you wnat to make?
+
 
 

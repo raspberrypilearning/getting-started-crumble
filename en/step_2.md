@@ -8,7 +8,7 @@ The Crumble controller board uses a custom-made blockly programming language tha
 
 [[[installing-crumble-software-mac]]]
 
-Crumble is also available for Chromebooks, currently on a beta version from the Chrome Web Store, and on Linux. The Crumble software download page has instructions on how to install Crumble on Linux districutions.
+Crumble is also available for Chromebooks, currently on a beta version from the Chrome Web Store, and on Linux. The [Crumble software download page](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} has instructions on how to install Crumble on Linux districutions.
 
 ### Crumble hardware
 

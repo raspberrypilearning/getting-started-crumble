@@ -1,8 +1,8 @@
 ## Introduction
 
-A crumble controller is a low-cost electronics controller that connects to a computer using a USB cable. Components like LEDs, switches, motors and servos can be connected using crocodile leads and can be programmed using Crumble’s free software.
+A crumble controller is a very low-cost electronics controller that connects to a computer using a USB cable. Components like LEDs, switches, motors and servos can be connected using crocodile leads and can be programmed using Crumble’s free software.
 
-In this project you will learn to connect a crumble controller and crumble sparkle LEDs, and write your first simple crumble code.
+In this first Crumble project you will learn to setup a Crumble controller, connect a range of common physical computing components such as motors and LEDs, and write simple Crumble codes to make each of them work.
 
 ### What you will make
 
@@ -28,10 +28,15 @@ title: What you will need
 + A PC or Mac with Crumble software installed and a USB port
 + Or a Chromebook with Crumble BETA software and a USB port
 + A Crumble starter kit - or the components bought separately
++ A position servo with jumper cables or a Crumbliser
++ A DC motor (3v to 6v)
++ An LED
+
+Don't worry, if you don't have some of these components. As long as you have a computer and a Crumble you can just skip the sections where you are missing items. All the other sections will still work fine. All the components are widely available and inexpensive.
 
 ### Software
 
-+ [Crumble](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} software
++ [Crumble](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} software. See the ***** 'Setting up the Crumble controller' ***** for information on installing the Crumble software. 
 
 ### Downloads
 
@@ -44,9 +49,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to set up a Crumble controller and Crumble Sparkle RGB LEDs
-+ How to code an RGB LED's colour using Crumble software
-+ How to use a repeat loop to create a repeating colour sequence
++ How to set up a Crumble controller and software
++ How to connect common physical computing components to a Crumble
++ How to write code foreach component using the Crumble software
 
 --- /collapse ---
 
