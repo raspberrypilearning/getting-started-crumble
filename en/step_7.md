@@ -4,7 +4,7 @@ For this section you will need a servo and leads to connect your servo to the Cr
 
 ![Some position servos](images/servo_example.png)
 
-There are a number of ways that you could connect this to your Crumble. Two easy ways would be using male to male jumper cables between the servo plug and croc clips, or using a Crumbliser connector (shown below)
+There are a number of ways that you could connect this to your Crumble. Two easy ways would be using male to male jumper cables between the servo plug and crocodile clips, or using a Crumbliser connector (shown below)
 
 ![Jumper cable and Crumbliser](images/jumper.png)
 
