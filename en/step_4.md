@@ -14,11 +14,13 @@ Use a crocodile clip lead to connect between the Crumble controller's negative o
 
 Then connect another crocodile lead between the 'A' terminal on the Crumble and the LED's anode (longer, positive leg).
 
+![Connecting the LED to the Crumble](images/led_to_crumble.png)
+
 --- /task ---
 
-That's it! Easy as that! So now we are ready to control the LED with code.
+That's it! Now we are ready to control the LED with code.
 
-Note: The LED would also work connected to B, C or D terminals but in this example we will just use the A terminal.
+Note: The LED would also work connected to B, C or D terminals but in this example we will just use the A terminal. The LED is also one of the few components that doesn't need battery power as long as the Crumble is plugged into a computer.
 
 --- task ---
 

@@ -31,7 +31,7 @@ Don't worry, if you don't have some of these components. As long as you have a c
 
 ### Software
 
-+ [Crumble](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} software. See the ***** 'Setting up the Crumble controller' ***** for information on installing the Crumble software. 
++ [Crumble](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} software. We will look at how to install the software in the ***** 'Setting up the Crumble controller' ***** section. 
 
 ### Downloads
 
