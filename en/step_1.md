@@ -11,7 +11,7 @@ In this first Crumble project you will learn to setup a Crumble controller, conn
 --- /no-print ---
 
 --- print-only ---
-![Crumble and some common components](images/crumble_intro.png)
+![Crumble and some common components](images/crumble_introb.png)
 --- /print-only ---
 
 --- collapse ---
