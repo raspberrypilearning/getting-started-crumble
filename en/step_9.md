@@ -90,7 +90,7 @@ Click the green 'play' button to see what happens. Was it what you expected?
 
 --- /task ---
 
-At the moment, if the switch is off then the motor is not being told it to do anything so when we stop pressing the button switch the motor will keep on going.  Let's fix that right away!
+At the moment, if the switch is off then the motor is not being told it to do anything so when we stop pressing the button switch the motor will keep on going.  Let's fix that!
 
 --- task ---
 
