@@ -66,6 +66,8 @@ Connect up a DC motor as we did earlier in the project. This project example use
 
 [[[connect-motor-crumble]]]
 
+![Motor added to switch circuit](images/crumble_switch_motor.png)
+
 Now let's get our DC motor output going by adding some code.
 
 Inside the conditional statement, add `motor 2 FORWARD at 50%`{:class="crumbleinputoutput"} from the `Input/Output`{:class="crumbleinputoutput"} palette.
