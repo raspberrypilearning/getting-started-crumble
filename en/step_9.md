@@ -62,7 +62,9 @@ You can use any input for this depending on your project, but for now, let's use
 
 --- task ---
 
-Connect up a DC motor as we did earlier in the project but using motor output 2 on the bottom right-hand side of the Crumble. If you need a reminder, look ***********REF***************.
+Connect up a DC motor as we did earlier in the project. This project example uses motor output 2 on the bottom right-hand side of the Crumble.
+
+[[[connect-motor-crumble]]]
 
 Now let's use our DC motor output by adding some code.
 
