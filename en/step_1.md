@@ -30,7 +30,7 @@ Don't worry if you don't have some of these components. As long as you have a co
 
 ### Software
 
-+ [Crumble](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} software. We will look at how to install the software in the ***** 'Setting up the Crumble controller' ***** section. 
++ [Crumble software](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"}.
 
 ### Downloads
 
@@ -44,8 +44,8 @@ title: What you will learn
 ---
 
 + How to set up a Crumble controller and software
-+ How to connect common physical computing components to a Crumble
-+ How to write code foreach component using the Crumble software
++ How to connect a range of common physical computing components to a Crumble
++ How to write and run code for each component using the Crumble software
 
 --- /collapse ---
 
