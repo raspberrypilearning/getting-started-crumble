@@ -34,7 +34,7 @@ Don't worry if you don't have some of these components. As long as you have a co
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ [rpf.io/getting-started-crumble](http://rpf.io/getting-started-crumble){:target="_blank"}
 
 --- /collapse ---
 
