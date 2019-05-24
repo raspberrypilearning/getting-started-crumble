@@ -1,6 +1,6 @@
 ## Position servos
 
-For this section you will need a servo and leads to connect your servo to the Crumble controller. Servos come with three wires ending in a female [type] socket. 
+For this section you will need a servo and leads to connect your servo to the Crumble controller. Servos come with three wires ending in a 'male' plug, occasionally they have a small tab to stop them being plugged in the wrong way but most do not so you need to make sure they go in the right way round. 
 
 ![Some position servos](images/servo_example.png)
 

@@ -20,14 +20,13 @@ title: What you will need
 ---
 ### Hardware
 
-+ A PC or Mac with Crumble software installed and a USB port
-+ Or a Chromebook with Crumble BETA software and a USB port
++ A PC, Mac or Chromebook with Crumble software installed and a USB port
 + A Crumble starter kit - or the components bought separately
 + A position servo with jumper cables or a Crumbliser
 + A DC motor (3v to 6v)
 + An LED
 
-Don't worry, if you don't have some of these components. As long as you have a computer and a Crumble you can just skip the sections where you are missing items. All the other sections will still work fine. All the components are widely available and inexpensive.
+Don't worry if you don't have some of these components. As long as you have a computer and a Crumble you can just skip the sections where you are missing items. All the other sections will still work fine and all the components are widely available and inexpensive.
 
 ### Software
 

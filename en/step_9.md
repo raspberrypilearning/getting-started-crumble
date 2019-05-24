@@ -68,11 +68,9 @@ Now let's use our DC motor output by adding some code.
 
 Inside the conditional statement, add `motor 2 FORWARD at 50%`{:class="crumbleinputoutput"} from the `Input/Output`{:class="crumbleinputoutput"} palette.
 
-![Button switch code with output](images/switch_code_with_output.png)
+![Code to set motor running if the button is pressed](images/button_if_then_code.png)
 
 Now our code reads, when the `program starts`{:class="crumblebasic"}, `if`{:class="crumblecontrol"} `the switch is on`{:class="crumbleinputoutput"} `then`{:class="crumblecontrol"} `turn motor output 2 on at 50% speed`{:class="crumbleinputoutput"}. 
-
-![Code to set motor running if the button is pressed](images/button_if_then_code.png)
 
 Click the green 'play' button to see what happens. Was it what you expected?
 
