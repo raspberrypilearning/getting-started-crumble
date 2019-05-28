@@ -32,7 +32,7 @@ Use another crocodile clip to connect from the negative output (-) on the right 
 
 And finally, we make the signal connection which must always be to the 'D' terminal on the Crumble. Sparkles will not work if connected to any other terminal.
 
-The positive and negative supply power to the Sparkle but it is this signal connections that will tell the Sparkle what colour it should be.
+The positive and negative cables supply power to the Sparkle but it is this signal connections that will tell the Sparkle what colour it should be.
 
 --- task ---
 
