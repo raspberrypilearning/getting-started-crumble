@@ -34,7 +34,7 @@ Don't worry if you don't have some of these components. As long as you have a co
 
 ### Downloads
 
-+ [rpf.io/getting-started-crumble](http://rpf.io/getting-started-crumble){:target="_blank"}
++ [rpf.io/getting-started-crumble](http://rpf.io/getting-started-crumble-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -56,6 +56,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/getting-started-crumble/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/getting-started-crumble).
+[Here is a link to the resources for this project](http://rpf.io/getting-started-crumble-go).
 
 --- /collapse ---
