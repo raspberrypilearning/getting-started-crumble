@@ -8,7 +8,7 @@ Note: different switches work in different ways. We mostly think of switches as 
 
 All of the components that we have looked at so far have been outputs. The Crumble has sent information out to them and they have done something in response. The button switch is the opposite. It is an input which means something happens outside, i.e. someone presses the button switch, and the Crumble recieves that information. The switch is either on or off.
 
-![inputs and outputs](images/inputoutput.png)
+![inputs and outputs](images/inputoutputSA.png)
 
 Let's connect up our switch.
 
@@ -18,7 +18,7 @@ First, let's connect positive power to the switch. Connect a croc clip from the 
 
 Next, we connect another croc clip from terminal A to the other side of the Crumble button switch. You could also use terminals B, C or D for switches.
 
-![Connecting a button switch to your Crumble](images/switch_to_crumble.png)
+![Connecting a button switch to your Crumble](images/switch_to_crumbleSA.png)
 
 --- /task ---
 
@@ -66,7 +66,7 @@ Connect up a DC motor as we did earlier in the project. This project example use
 
 [[[connect-motor-crumble]]]
 
-![Motor added to switch circuit](images/crumble_switch_motor.png)
+![Motor added to switch circuit](images/crumble_switch_motorSA.png)
 
 --- /task ---
 

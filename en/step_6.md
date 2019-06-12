@@ -18,7 +18,7 @@ Connect one end of a crocodile clip the Motor 1 positive terminal (+). It is the
 
 Next, connect another croc clip from the Motor 1 negative terminal (-) to the negative terminal of the motor.
 
-![Crumble to DC motor connections](images/motor_connections.png)
+![Crumble to DC motor connections](images/motor_connectionsSA.png)
 
 I have used red and black crocodile clips to make things clear, but any colours will work fine.
 

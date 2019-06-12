@@ -16,7 +16,7 @@ Let's start with the positive.
 
 Use a crocodile clip to connect from the positive output (+) on the right side of the Crumble to the positive input (+) on the left side of the Sparkle.
 
-![Connecting the Sparkle positive connection](images/sparklePositive.jpg)
+![Connecting the Sparkle positive connection](images/sparklePositiveSA.jpg)
 
 --- /task ---
 
@@ -26,7 +26,7 @@ Now let's do the same for the negative connection.
 
 Use another crocodile clip to connect from the negative output (-) on the right side of the Crumble to the negative input (-) on the left side of the Sparkle.
 
-![Connecting the Sparkle negative connection](images/sparkleNegative.jpg)
+![Connecting the Sparkle negative connection](images/sparkleNegativeSA.jpg)
 
 --- /task ---
 
@@ -38,7 +38,7 @@ The positive and negative cables supply power to the Sparkle but it is this sign
 
 Use a final crocodile clip to connect from the 'D' terminal on the right side of the Crumble to the ->D-> input on the left side of the Sparkle.
 
-![Connecting the Sparkle signal connection](images/sparkleSignal.jpg)
+![Connecting the Sparkle signal connection](images/sparkleSignalSA.jpg)
 
 --- /task ---
 
