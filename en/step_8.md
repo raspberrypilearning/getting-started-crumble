@@ -30,7 +30,7 @@ You will need to use the blocks below to create the random position code.
 
 Can you rearrange them to make the code work?
 
-![Random servo position Parsons problem](images/random_servo_parsons.png)
+![Random servo position Parsons problem](images/step8challengeSequence_parsons.png)
 
 --- /hint ---
 
@@ -38,7 +38,7 @@ Can you rearrange them to make the code work?
 
 Arrange the code blocks to make the code below:
 
-![Random servo position code solution](images/random_servo_solution.png)
+![Random servo position code solution](images/step8challengeSequence_solution.png)
 
 Click the green 'play' button to see if it works as you expect.
 
