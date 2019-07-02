@@ -1,44 +1,48 @@
-## Motors
+## Use DC motors with your Crumble
 
-The Crumble board is designed to be able to power two DC motors and when powered by 3 AA batteries the board outputs 4.5v to the motors.
+The Crumble board can power two DC motors. If you connect the Crumble to three AA batteries, the board outputs 4.5V to the motors.
 
-You could use any simple standalone DC motor for this task, or a gear motor like the ones often used in making simple robot buggies. They all work the same and infact, inside the yellow casing of the gear motor shown, there is a simple DC motor just like the one on the right of the image.
+Here, you can use any simple DC motor, or a gear motor like the ones often used in simple robot buggies. These motors all work the same. In fact, inside the yellow casing of the gear motor shown below, there is a simple DC motor just like the one on the right in the image.
 
 ![Three different DC motors](images/DC_motors.png)
 
-Note: If you are using a 3v motor, running your motors at 70% the Crumble board will supply roughly the 3v output for which your motor was designed.
+**Note**: If you are using a 3V motor, then make your Crumble run it at 70%. Then the Crumble will supply roughly the 3V the motor needs.
 
-Most motors have clearly marked positive and negative terminals. If these are reversed it simply means that the motors will turn in the opposite direction.
+Most motors have clearly marked positive and negative terminals. If you reverse your motor's terminals when you connect it to the Crumble, the motor will turn in the opposite direction.
 
 --- task ---
 
-The Crumble board's motor connections are the two terminals at the bottom end of the board on either side.
+The Crumble board's motor connections are the two times two terminals at the bottom end of the board. The two terminals on the left are labeled with **1**, and the two on the right are labeled with **2**.
 
-Connect one end of a crocodile clip the Motor 1 positive terminal (+). It is the second terminal up on the left side of the board. Connect the other end of the croc clip to the positive terminal of the DC motor. Again, this is usually marked with a '+' but if it is not clear which is the positive terminal, don't worry, just connect it to one of the two terminals.
+* Take a cable with crocodile clips.
 
-Next, connect another croc clip from the Motor 1 negative terminal (-) to the negative terminal of the motor.
+* Connect one crocodile clip to the Crumble's motor 1 positive terminal (+), which is the second terminal up on the left side.
+
+* Connect the cable's other crocodile clip to the positive terminal of the DC motor. This terminal might be marked with a +, but if it is not, just connect the crocodile clip to one of the two terminals.
+
+*  In the same way, connect another cable with crocodile clips to the Crumble's motor 1 negative terminal (1) and the negative terminal of the motor.
 
 ![Crumble to DC motor connections](images/motor_connectionsSA.png)
 
-I have used red and black crocodile clips to make things clear, but any colours will work fine.
+The images show a red for the positive connection and a black cable for the negative connection, but any colours will work fine.
 
 --- /task ---
 
-Great! That's our motor connected up. Now to write our first motor controlling code!
+Great! Your motor is connected, and you can now write your first motor-controlling program!
 
 --- task ---
 
-As ever, let's grab a `program start`{:class="crumblebasic"} block to start our code.
+As always, use a `program start`{:class="crumblebasic"} block to start your code.
 
-Making the motor run is an output so let's look in the `Input/Output`{:class="crumbleinputoutput"} blocks palette for our motor control blocks. Can you see the one we need?
+* Making the motor run is an **output**. Look in the `Input/Output`{:class="crumbleinputoutput"} blocks menu for the motor control blocks. Can you see the one you need?
 
-Grab the `motor 1 FORWARD at 75%`{:class="crumbleinputoutput"} block and connect it under the `program start`{:class="crumblebasic"} block.
+* Grab the `motor 1 FORWARD at 75%`{:class="crumbleinputoutput"} block, and connect it below the `program start`{:class="crumblebasic"} block.
 
-Just so we don't have the motor jumping all over the table, let's change the power percentage to 25% to start with. Although jumping motors can be fun too!
+* Change the power percentage to **25%**.
 
 ![First Crumble DC motor code](images/Crumble_motor_forward_code.png)
 
-Now click the green 'run' triangle to test your code.
+* Now click on the green triangle **play** button to test your code.
 
 --- no-print ---
 
@@ -50,17 +54,17 @@ Now click the green 'run' triangle to test your code.
 
 ![Running motor forward program](images/Crumble_motor_forward.png)
 
-When the 'run' button is pressed, the motor will spin. When the red 'stop' square is pressed the program ends and the motor will stop.
+When you click on the green triangle **play** button, your program runs and the motor spins. When you click the red square **stop** button, your program ends and the motor stops.
 
-Tip: Sticking something on the end of the motor shaft makes it much easier to tell when the motor is spinning.
+Tip: Stick something on the end of the motor shaft to make it much easier to tell whether the motor is spinning.
 
 --- /print-only ---
 
 --- /task ---
 
-As we have seen, pressing the red 'stop' button will end the program and stop the motor but we can also stop the motor using code.
+Instead of clicking the **stop** button, you can also stop the motor using code.
 
-Clicking on the `FORWARD`{:class="crumbleinputoutput"} part of the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block will toggle between `FORWARD`{:class="crumbleinputoutput"}, `REVERSE`{:class="crumbleinputoutput"} and `STOP`{:class="crumbleinputoutput"}.
+* Click on the `FORWARD`{:class="crumbleinputoutput"} part of the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block to toggle between `FORWARD`{:class="crumbleinputoutput"}, `REVERSE`{:class="crumbleinputoutput"}, and `STOP`{:class="crumbleinputoutput"}.
  
  --- no-print ---
 
@@ -74,28 +78,31 @@ Clicking on the `FORWARD`{:class="crumbleinputoutput"} part of the `motor 1 FORW
 
 --- /print-only ---
 
-Now let's get a bit creative with our motor! Let's code a program that will tell the motor to go forward, then stop, go in reverse, then stop, and then repeat all of that three times.
+Now create a program to tell the motor to go forward, then stop, go in reverse, then stop, and does all of that three times!
 
 --- task ---
 
-Building on the program that we already have, grab a `wait 1.0 seconds`{:class="crumblecontrol"} block from the `Control`{:class="crumblecontrol"} blocks palette, and add it under the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block.
+Build on the program you already have.
+
+* Go to the `Control`{:class="crumblecontrol"} blocks menu and drag out a `wait 1.0 seconds`{:class="crumblecontrol"} block.
+
+* Add the new block below the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block.
 
 ![Add a wait](images/motorstage1.png)
 
+* Get another `motor`{:class="crumbleinputoutput"} block and toggle the direction so it becomes a `motor 1 STOP`{:class="crumbleinputoutput"} block.
 
-Get another `motor`{:class="crumbleinputoutput"} block and toggle the direction so it becomes a `motor 1 STOP`{:class="crumbleinputoutput"} block, and add it under the `wait`{:class="crumblecontrol"} block.
+* Add the new block below the `wait`{:class="crumblecontrol"} block.
 
 ![Add a motor stop](images/motorstage2.png)
 
-
-Next, we'll add another `wait`{:class="crumblecontrol"} block but this time get a `wait 100 milliseconds`{:class="crumblecontrol"} block, and connect under the `motor 1 STOP`{:class="crumbleinputoutput"} block.
+* Next, add a `wait 100 milliseconds`{:class="crumblecontrol"} block below the `motor 1 STOP`{:class="crumbleinputoutput"} block.
 
 ![Add a wait](images/motorstage3.png)
 
+Note: A `wait 100 milliseconds`{:class="crumblecontrol"} block and a `wait 0.1 seconds`{:class="crumblecontrol"} block do exactly the same thing.
 
-Note: Since 1,000 milliseconds = 1 second, 100 millseconds is one tenth of a second. This means that a `wait 100 milliseconds`{:class="crumblecontrol"} block and a `wait 0.1 seconds`{:class="crumblecontrol"} block do exactly the same thing. Take your pick!
-
-So that is the motor start and motor stop section. The next section is the same except going in reverse rather than forward. The quickest way to do this is to copy the blocks we have.
+The code you have now makes the motor spin forward and then stop. The next section of code you need is the same, expect it should make the motor spin in reverse. The quickest way to create this code is to copy the blocks you already have.
 
  --- no-print ---
 
@@ -109,18 +116,25 @@ So that is the motor start and motor stop section. The next section is the same 
 
 --- /print-only ---
 
-Right-click on the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block and choose 'Duplicate'. This copies that blocks and the three blocks below. Connect the blocks under the code you already have and toggle the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} so it reads `motor 1 REVERSE at 25%`{:class="crumbleinputoutput"}.
+* Right-click on the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} block and choose **Duplicate**. This copies that blocks and the three blocks below.
+
+* Connect the copied blocks under the code you already have.
+
+* Toggle the `motor 1 FORWARD at 25%`{:class="crumbleinputoutput"} so it reads `motor 1 REVERSE at 25%`{:class="crumbleinputoutput"}.
 
 ![Duplicate the code so far](images/motorstage4.png)
 
+* Now get a `do 10 times`{:class="crumblecontrol"} loop block.
 
-Finally, get a `do 10 times`{:class="crumblecontrol"} loop block and put your code inside this (except the `program start`{:class="crumblebasic"} block which always starts our code, of course). Change the number of repeats from 10 to 3.
+* Put all the code blocks **except** the `program start`{:class="crumblebasic"} block inside this loop.
 
-Your code should now look like this...
+* Change the number of repeats from 10 to 3.
+
+Your code should now look like this:
 
 ![motor control code](images/crumble_motor_start_stop_code.png)
 
-Now, run your code and check that it does what you expect.
+Now run your code and check that it does what you expect.
 
  --- no-print ---
 
@@ -132,7 +146,7 @@ Now, run your code and check that it does what you expect.
 
 ![Motor running forward then reverse](images/crumble_motor_start_stop.png)
 
-The motor should run forwards, stop, reverse, stop, and repeat three times.
+The motor should run forwards, stop, reverse, stop, and do this three times in total.
 
 --- /print-only ---
 
