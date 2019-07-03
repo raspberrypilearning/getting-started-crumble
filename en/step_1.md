@@ -1,10 +1,10 @@
 ## Introduction
 
-A crumble controller is a very low-cost electronics controller that connects to a computer using a USB cable. Components like LEDs, switches, motors and servos can be connected using crocodile leads and can be programmed using Crumble’s free software.
+A Crumble is a very low-cost electronics controller that connects to a computer using a USB cable. You can attach components like LEDs, buttons, and motors to the Crumble using crocodile leads, and you can program your Crumble using free software.
 
 ### What you will make
 
-In this first Crumble project you will learn to setup a Crumble controller, connect a range of common physical computing components such as motors and LEDs, and write simple Crumble codes to make each of them work.
+In this beginner Crumble project, you will learn how to set up a Crumble controller, connect common physical computing components such as motors and LEDs to it, and write simple code to make each component work.
 
 --- no-print ---
 ![Crumble and some common components](images/crumble_introb.gif)
@@ -20,21 +20,26 @@ title: What you will need
 ---
 ### Hardware
 
-+ A PC, Mac or Chromebook with Crumble software installed and a USB port
-+ A Crumble starter kit - or the components bought separately
-+ A position servo with jumper cables or a Crumbliser
-+ A DC motor (3v to 6v)
+Necessary:
++ A computer with:
+    1. The Crumble software installed
+    1. A USB port
++ A Crumble starter kit, or the components bought separately
+
+Widely available, inexpensive physical computing components:
++ A position servo motor with jumper cables, or a Crumbliser
++ A DC motor (3V to 6V)
 + An LED
 
-Don't worry if you don't have some of these components. As long as you have a computer and a Crumble you can just skip the sections where you are missing items. All the other sections will still work fine and all the components are widely available and inexpensive.
+**If you don't have some of these components, skip the tasks for which you are missing items. You can do all the other tasks anyway.**
 
 ### Software
 
-+ [Crumble software](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"}.
++ [Crumble software](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} — free and available for PC, Mac, Chromebook, and Linux devices
 
 ### Downloads
 
-+ [rpf.io/getting-started-crumble](http://rpf.io/getting-started-crumble-go){:target="_blank"}
++ [rpf.io/getting-started-crumble](http://rpf.io/p/getting-started-crumble-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -43,8 +48,8 @@ Don't worry if you don't have some of these components. As long as you have a co
 title: What you will learn
 ---
 
-+ How to set up a Crumble controller and software
-+ How to connect a range of common physical computing components to a Crumble
++ How to set up a Crumble controller and its software
++ How to connect common physical computing components to a Crumble
 + How to write and run code for each component using the Crumble software
 
 --- /collapse ---
@@ -56,6 +61,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/getting-started-crumble/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/getting-started-crumble-go).
+[Here is a link to the resources for this project](http://rpf.io/p/getting-started-crumble-go).
 
 --- /collapse ---

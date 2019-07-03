@@ -1,56 +1,58 @@
-## Crumble Sparkles
+## Use a Crumble Sparkle
 
-Crumble Sparkles are RGB LEDs made specially to be used with the Crumble controller.
+Crumble Sparkles are RGB lights made specially for the Crumble controller.
 
-The RGB stands for red, green and blue. Using the Crumble software, we can set different levels red, green and blue to display any of nearly 17 million colours!
+RGB stands for red, green, and blue. Using the Crumble software, you can set different levels of red, green, and blue for the Crumble Sparkle lights. In this way, you can create any of nearly 17 million colours!
 
 ![Crumble Sparkle connections](images/sparkleconnections.jpg)
 
-Before we can do that, we need to connect a Sparkle to our Crumble.
+To do that, you need to  connect a Sparkle to your Crumble in the right way.
 
-The Sparkle will connect to the positive (+), negative (-) and 'D' terminals on the Crumble controller.
+The Sparkle connects to the positive (**+**), negative (**-**), and **D** terminals on the Crumble controller.
 
-Let's start with the positive.
+Start by connecting the positive terminal.
 
 --- task ---
 
-Use a crocodile clip to connect from the positive output (+) on the right side of the Crumble to the positive input (+) on the left side of the Sparkle.
+Look at the Sparkle to see which way the two small arrows are pointing. The side the arrows are pointing to is the **right** side.
+
+Use a cable with crocodile clips to connect the positive terminal (+) on the **right** side of the Crumble to the positive input (+) on the **left** side of the Sparkle.
 
 ![Connecting the Sparkle positive connection](images/sparklePositiveSA.png)
 
 --- /task ---
 
-Now let's do the same for the negative connection.
+Now connect the negative terminal of the Crumble.
 
 --- task ---
 
-Use another crocodile clip to connect from the negative output (-) on the right side of the Crumble to the negative input (-) on the left side of the Sparkle.
+Use another cable with crocodile clips to connect the negative output (-) on the **right**side of the Crumble to the negative input (-) on the **left** side of the Sparkle.
 
 ![Connecting the Sparkle negative connection](images/sparkleNegativeSA.png)
 
 --- /task ---
 
-And finally, we make the signal connection which must always be to the 'D' terminal on the Crumble. Sparkles will not work if connected to any other terminal.
+The positive and negative cables supply power to the Sparkle.
 
-The positive and negative cables supply power to the Sparkle but it is this signal connections that will tell the Sparkle what colour it should be.
+And finally, make the signal connection, which tells the Sparkle what colour to light up in. **The signal connection must always be to the D terminal** on the Crumble. Sparkles don't work if you connect them to any other terminal on the Crumble.
 
 --- task ---
 
-Use a final crocodile clip to connect from the 'D' terminal on the right side of the Crumble to the ->D-> input on the left side of the Sparkle.
+Use another cable with crocodile clips to connect the **D** terminal on the **right** side of the Crumble to the **->D->** input on the **left** side of the Sparkle.
 
 ![Connecting the Sparkle signal connection](images/sparkleSignalSA.png)
 
 --- /task ---
 
-Great! Our Sparkle is fully connected and it is time to light the lights!
+Great! Your Sparkle is now fully connected, and it is time to light it up.
 
-### Your first Crumble code
+### Your first Crumble program
 
-Before we code, lets have a quick look at the Crumble software programming environment.
+Have a quick look at the Crumble software programming environment.
 
 ![Crumble software programming environment](images/crumbleEnvironmentBlack.png)
 
-It is a blockly language a little like Scratch but in Crumble there are only six block palettes and only one starting block, the 'program start' block.
+It is a little like Scratch, but there are only six types of blocks and only one starting block, which is called the `program start`{:class="crumblebasic"} block.
 
 Let's start coding!
 
@@ -62,27 +64,29 @@ Drag the `program start`{:class="crumblebasic"} block into your workspace.
 
 --- /task ---
 
-Everything that you connect underneath the `program start`{:class="crumblebasic"} block will run.
+Every code block that you connect below the `program start`{:class="crumblebasic"} block is part of your program. Your program runs when you click on the green triangle button.
 
-Any blocks in your workspace that are not connected to the `program start`{:class="crumblebasic"} block will not run.
+Any blocks in your workspace that are not connected to the `program start`{:class="crumblebasic"} block are not part of your program.
 
 --- task ---
 
-Click on the `Sparkles`{:class="crumblesparkles"} palette to have a look at what Sparkle coding blocks we can use.
+Click on the `Sparkles`{:class="crumblesparkles"} palette and have a look at the Sparkle coding blocks.
 
-![The Sparkle block palette](images/sparkleBlocks.jpg)
+![The Sparkles block palette](images/sparkleBlocks.jpg)
 
 --- /task ---
 
-There are three different types of Sparkle block that we can use.
+There are three different types of Sparkle block that you can use:
 
-`set sparkle to`{:class="crumblesparkles"} with a colour picker box, `turn sparkle off`{:class="crumblesparkles"}, and `set sparkle to`{:class="crumblesparkles"} a colour by giving individual red, green and blue values.
+* `set sparkle to`{:class="crumblesparkles"} with a colour picker box
+* `set sparkle to`{:class="crumblesparkles"} with three fields for red, green, and blue values
+* `turn sparkle off`{:class="crumblesparkles"}
 
-Each of these has a version for a specific Sparkle and another for ALL Sparkles!
+For each block type, there is a version for a specific Sparkle and another for all Sparkles!
 
 --- task ---
 
-Drag a `set sparkle to`{:class="crumblesparkles"} block with a colour picker box out into your workspace and join it underneath your `program start`{:class="crumblebasic"} block.
+Drag a `set sparkle to`{:class="crumblesparkles"} block with a colour picker box into your workspace, and connect it below the `program start`{:class="crumblebasic"} block.
 
 ![Add a set Sparkle block](images/setSparkleBlocksBox.jpg)
 
@@ -90,26 +94,27 @@ Drag a `set sparkle to`{:class="crumblesparkles"} block with a colour picker box
 
 --- task ---
 
-Click on the colour picker box (this is always red by default) and a colour picker will appear.
+Click on the new block's colour picker box (this is always red by default) to make a colour picker appear.
 
 ![Colour picker on Windows version](images/winColPick.jpg)
 
-Choose a colour for your Sparkle by clicking in the large square colour selector or picking one of the 'Basic colours'.
+Choose a colour for your Sparkle.
+
+The colour picker looks quite different depending on what computer you are using.
+
+On a Mac for example, there are five different colour picker options! Here are three of the different ways that you can colour-pick using the macOS version of Crumble.
+
+![Colour picker on Mac OSX version](images/macColPick.jpg)
 
 --- /task ---
 
-On different devices, the colour picker is quite different.
+You now have your `program start`{:class="crumblebasic"} block, and your `set sparkle to`{:class="crumblesparkles"} sets the colour of our choice.
 
-On a Mac for example, there are five different colour picker options!
-
-![Colour picker on Mac OSX version](images/macColPick.jpg)
-Here are three of the different ways that you can colour pick using the Mac OSX version of Crumble.
-
-We've got our `program start`{:class="crumblebasic"} block, we've `set sparkle to`{:class="crumblesparkles"} a colour of our choice. That's it, we are ready to run our code!
+You are ready to run our code!
 
 --- task ---
 
-Press the green 'play' triangle to run your code.
+Click on the green triangle **play** button to run your code.
 
 --- no-print ---
 

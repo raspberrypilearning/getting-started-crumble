@@ -1,40 +1,39 @@
-## LEDs
+## Use LEDs with your Crumble
 
-Crumble Sparkles are great but sometimes you may want to just use an ordinary LED or use a mix of Sparkles and LEDs.
+Crumble Sparkles are great, but you can also use an ordinary LED (light-emitting diode, basically a small lightbulb) with your Crumble. You could even use a mix of Sparkles and LEDs!
 
-LEDs can be connected directly to the Crumble controller board and don't even need battery power while the Crumble is connected to your computer!
+LEDs can be connected directly to the Crumble controller. They don't need battery power while the Crumble is connected to your computer.
+
+LEDs have two legs. The longer leg (called the anode) is positive and must connect to the positive terminal. The shorter leg (called the cathode) must connect to the negative or ground terminal. If you connect the legs the wrong way round, the LED will not light up.
 
 ![Annotated LED](images/annotatedLEDSA.png)
 
-LEDs (light emitting diodes) have two legs. The longer leg (anode) must connect to the positive power supply while the shorter leg (cathode) must connect tot he negative or ground. If you get these the wrong way round it will not damage the LED but the LED will not light up.
-
 --- task ---
 
-Use a crocodile clip lead to connect between the Crumble controller's negative output (on the right hand side) and the LED's cathode (shorter, negative leg).
+Use a cable with crocodile clips to connect the Crumble controller's negative output (on the right-hand side) to the LED's cathode (the shorter, negative leg).
 
-Then connect another crocodile lead between the 'A' terminal on the Crumble and the LED's anode (longer, positive leg).
+Then use another cable with crocodile clips to connect the **A** terminal of the Crumble to the LED's anode (the longer, positive leg).
 
 ![Connecting the LED to the Crumble](images/led_to_crumbleSA.png)
 
+Note: You could also choose to connect the LED to the Crumble's B, C, or D terminal, and the LED would work the same.
+
 --- /task ---
 
-That's it! Now we are ready to control the LED with code.
-
-Note: The LED would also work connected to B, C or D terminals but in this example we will just use the A terminal. The LED is also one of the few components that doesn't need battery power as long as the Crumble is plugged into a computer.
+You are now ready to control the LED with code.
 
 --- task ---
 
 Open up the Crumble software and start, as always, with a `program start`{:class="crumblebasic"} block.
 
-To turn the LED on and off we use the `set`{:class="crumbleinputoutput"} block from the `Input/Output`{:class="crumbleinputoutput"} palette.
+Open up the the `Input/Output`{:class="crumbleinputoutput"} blocks menu. You can use the `set`{:class="crumbleinputoutput"} block to turn the LED on and off.
 
-Drag the `set A HI`{:class="crumbleinputoutput"} block out and connect it under the `program start`{:class="crumblebasic"} block.
+Drag the `set A HI`{:class="crumbleinputoutput"} block out, and connect it below the `program start`{:class="crumblebasic"} block.
 
 
 ![Code to turn LED on](images/turnOnLedCode.png)
 
-
-Now to test the code. Run your code by clicking the green 'run' arrow.
+Test your code by clicking the green triangle **play** button.
 
 --- no-print ---
 
@@ -50,13 +49,15 @@ Now to test the code. Run your code by clicking the green 'run' arrow.
 
 --- /task ---
 
-Now that you have turned the LED on, it's time to turn it off again.
+Your LED should now be on. Change your code to turn the LED off again.
 
 --- task ---
 
-To change our code to turn the LED off, simply change the `set A HI`{:class="crumbleinputoutput"} block to `set A LO`{:class="crumbleinputoutput"} by clicking on the `HI`{:class="crumbleinputoutput"}. You will notice that clicking here toggles between `HI`{:class="crumbleinputoutput"} and `LO`{:class="crumbleinputoutput"}.
+To turn the LED off, find the `set A HI`{:class="crumbleinputoutput"} block and click on the `HI`{:class="crumbleinputoutput"} field to change it to `LO`{:class="crumbleinputoutput"}.
 
-Now test the code works by clicking the green 'run' arrow.
+Notice that clicking on this field switches between `HI`{:class="crumbleinputoutput"} and `LO`{:class="crumbleinputoutput"}.
+
+Test your code by clicking the green triangle **play** button.
 
 --- no-print ---
 

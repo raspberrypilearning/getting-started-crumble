@@ -1,42 +1,57 @@
-## Button switches
+## Use buttons with your Crumble
 
-The Crumble starter kit come with a great little Crumble friendly button switch but you could use any switch as long as you can connect to the switches terminals.
+What you will need for this step:
+
+* Either the Crumble-friendly button from the Crumble starter kit
+* Or any button that you can connect to the Crumble's switches terminals
 
 ![Some switches](images/switch_selection2.png)
 
-Note: different switches work in different ways. We mostly think of switches as standard on/off switches but some are push to make (when you press them the switch is on but as soon as you stop pressing, the switch is off) and some are even push to break (on unless being pressed). The Crumble starter kit button switch is push to make.
+**Note:** Different buttons work in different ways:
 
-All of the components that we have looked at so far have been outputs. The Crumble has sent information out to them and they have done something in response. The button switch is the opposite. It is an input which means something happens outside, i.e. someone presses the button switch, and the Crumble recieves that information. The switch is either on or off.
+* There are standard on/off buttons
+* Some buttons are 'push to make' buttons, meaning you need to push them and hold them down to make something happen
+* Some buttons are 'push to break' buttons, meaning you have to push them and hold them down to stop something happening
+
+The Crumble starter kit button is a 'push to make' button.
+
+All of the components in the previous steps are **outputs**. That means the Crumble sends information out to them, and they do something in response.
+
+The button is an **input**, which means it sends information to the Crumble. The information the button sends is whether it is pushed or not.
 
 ![inputs and outputs](images/inputoutputSA.png)
 
-Let's connect up our switch.
+Now connect your button.
 
 --- task ---
 
-First, let's connect positive power to the switch. Connect a croc clip from the positive (+) terminal of the Crumble at the top right corner to one side of the Crumble button switch (either side will do).
+First, connect positive power to the button.
 
-Next, we connect another croc clip from terminal A to the other side of the Crumble button switch. You could also use terminals B, C or D for switches.
+* Take a crocodile clip cable and connect it to the positive (+) terminal of the Crumble at the top right-hand corner and the button (either side of the button works).
 
-![Connecting a button switch to your Crumble](images/switch_to_crumbleSA.png)
+* Next, connect another crocodile clip cable from the Crumble's terminal A to the other side of the button.
+
+![Connecting a button to your Crumble](images/switch_to_crumbleSA.png)
+
+You could also use terminals B, C, or D for connecting buttons.
 
 --- /task ---
 
-Now that it is connected, when the button is pressed terminal A is HI (on), and when the button is released terminal A is LO (off).
+When you push the button, terminal A is HI, meaning it's on. When you release the button, terminal A is LO, meaning it's off.
 
-And now let's write some code.
+Now write some code.
 
 --- task ---
 
-As ever, we start with the `program start`{:class="crumblebasic"} block.
+* As always, start with the `program start`{:class="crumblebasic"} block.
 
-Next, we need to ask a question about what state the button is in. Is the button in its on or off state?
+Next, your code needs to check whether the button in its on or off state.
 
-from the `control`{:class="crumblecontrol"} palette, grab the `if... then`{:class="crumblecontrol"} block.
+* From the `control`{:class="crumblecontrol"} blocks menu, drag out the `if...then`{:class="crumblecontrol"} block. Connect the new block to your first block.
 
 ![If... then block](images/if_then_block.png)
 
-From the `Input/Output`{:class="crumbleinputoutput"} block palette, get an `A is HI`{:class="crumbleinputoutput"} block and place it inside the hexagonal space in the `if... then`{:class="crumblecontrol"} block.
+* From the `Input/Output`{:class="crumbleinputoutput"} blocks menu, get an `A is HI`{:class="crumbleinputoutput"} block and place it inside the hexagonal space in the `if...then`{:class="crumblecontrol"} block.
 
 --- no-print ---
 
@@ -50,37 +65,42 @@ From the `Input/Output`{:class="crumbleinputoutput"} block palette, get an `A is
 
 --- /print-only ---
 
-That's great but at the moment, the program only checks `if`{:class="crumblecontrol"} the button is being pressed at the moment the program starts. We want it to keep on checking so we need to put our `if`{:class="crumblecontrol"} statement, our conditional statement, in a `do forever`{:class="crumblecontrol"} loop so that it checks the button the whole time the program is running.
+At the moment, your code only checks `if`{:class="crumblecontrol"} the button is in its on or off state at the moment the program starts. You want it to keep on checking so you need to put your `if`{:class="crumblecontrol"} statement into a `do forever`{:class="crumblecontrol"} loop.
 
-![Button switch code with no output](images/button_if_then_code_noOutput.png)
+![Button  code with no output](images/button_if_then_code_noOutput.png)
+
+Then the code checks the button the whole time.
 
 --- /task ---
 
-Of course, we now need an output for the Crumble to be able to indicate the result of the input, or whether the switch is on or off.
+You now need to add an output so the Crumble can show what the input is. Here the input is whether the button is in its on or off state.
 
-You can use any input for this depending on your project, but for now, let's use a motor. If you don't have a motor to hand feel free to use any other input.
+You can use any output for this you want, but for now, use a motor. If you don't have a motor, do use any other input.
 
 --- task ---
 
-Connect up a DC motor as we did earlier in the project. This project example uses motor output 2 on the bottom right-hand side of the Crumble.
+Connect a DC motor as before. The example below uses motor output 2 on the bottom right-hand side of the Crumble.
 
 [[[connect-motor-crumble]]]
 
-![Motor added to switch circuit](images/crumble_switch_motorSA.png)
+![Motor added to button circuit](images/crumble_switch_motorSA.png)
 
 --- /task ---
 
-Now let's get our DC motor output going by adding some code.
+Now get your DC motor output moving by adding some more code.
 
 --- task ---
 
-Inside the conditional statement, add `motor 2 FORWARD at 50%`{:class="crumbleinputoutput"} from the `Input/Output`{:class="crumbleinputoutput"} palette.
+From the `Input/Output`{:class="crumbleinputoutput"} menu, drag a `motor 2 FORWARD at 50%`{:class="crumbleinputoutput"} and add it inside the `if`{:class="crumblecontrol"} block
 
 ![Code to set motor running if the button is pressed](images/button_if_then_code.png)
 
-Now our code reads, when the `program starts`{:class="crumblebasic"}, `if`{:class="crumblecontrol"} `the switch is on`{:class="crumbleinputoutput"} `then`{:class="crumblecontrol"} `turn motor output 2 on at 50% speed`{:class="crumbleinputoutput"}. 
+Now your code reads
+1. When the `program starts`{:class="crumblebasic"}
+1. `if`{:class="crumblecontrol"} `the button is on`{:class="crumbleinputoutput"}
+1. `Then`{:class="crumblecontrol"} `turn motor output 2 on at 50% speed`{:class="crumbleinputoutput"}
 
-Click the green 'play' button to see what happens. Was it what you expected?
+Click on the green triangle **play** button and see what happens.
 
 --- no-print ---
 
@@ -96,23 +116,32 @@ Click the green 'play' button to see what happens. Was it what you expected?
 
 --- /task ---
 
-At the moment, if the switch is off then the motor is not being told it to do anything so when we stop pressing the button switch the motor will keep on going.  Let's fix that!
+At the moment, if the button is in its off state, then the motor is not being told to do anything. So when you stop pressing the button, the motor keeps moving.
 
 --- task ---
 
-Start by pulling the `if... then`{:class="crumblecontrol"} block out of the `do forever`{:class="crumblecontrol"} loop. Now get a `if... then... else`{:class="crumblecontrol"} block and place that inside the `do forever`{:class="crumblecontrol"} loop instead.
+Add code so that the motor stops moving when you don't push the button.
+
+* Pull the `if... then`{:class="crumblecontrol"} block out of the `do forever`{:class="crumblecontrol"} loop
+* Get an `if... then... else`{:class="crumblecontrol"} block and place that inside the `do forever`{:class="crumblecontrol"} loop instead
 
 ![If... then... else block](images/if_then_else_block.png)
 
-The first gap, after the `then`{:class="crumblecontrol"} tells the Crumble what to do if the condition, e.g. `A is HI`{:class="crumbleinputoutput"} is true (the button is being pressed) while the second gap, after the `else`{:class="crumblecontrol"} tells the Crumble what to do if the condition is not true (the button is not being pressed).
+Between the `if`{:class="crumblecontrol"} and `then`{:class="crumblecontrol"} is the test the block runs. The test here is `A is HI`: is the button being pushed?
 
-Take the blocks out from the `if... then`{:class="crumblecontrol"} block we were using and put them in our new `if... then... else`{:class="crumblecontrol"} block.
+The first gap, after the `then`{:class="crumblecontrol"}, says what happens if the button is being pushed.
 
-Now add a new instruction in the gap under `else`{:class="crumblecontrol"} saying `motor 2 STOP`{:class="crumbleinputoutput"}.
+The second gap, after the `else`{:class="crumblecontrol"} says what happens if the button is **not** being pushed.
+
+Take the blocks out from the `if... then`{:class="crumblecontrol"} block and put them in your new `if... then... else`{:class="crumblecontrol"} block.
+
+Now in the gap after`else`{:class="crumblecontrol"}, add a new instruction saying `motor 2 STOP`{:class="crumbleinputoutput"}.
 
 ![Code to set motor running or stopping if the button is pressed](images/button_if_then_else_code.png)
 
-Try clicking the green 'play' button and see what happens. When the button is pressed the motor should run but then stop as soon as the button is released.
+Click on the green triangle **play** button and see what happens.
+
+When you push the button now, the motor should run, and when you release the button, the motor should stop.
 
 --- no-print ---
 
@@ -128,7 +157,13 @@ Try clicking the green 'play' button and see what happens. When the button is pr
 
 --- /task ---
 
-Congratulations! You have now connected a range of components to your Crumble and written code for each! Now that you know all that, what will you make next?
+Congratulations!
+
+Now you know how to connect a range of components to your Crumble, and how to write code to control the components.
+
+Congratulations!
+
+What will you make next?
 
 
 

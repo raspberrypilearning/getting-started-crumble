@@ -1,9 +1,8 @@
-## Challenge: Servo random position generator
+## Challenge: make a random position generator for your servo
 
 Can you write code to make your servo keep moving to random positions?
 
-Remember that the servo will need a little time to get to each position before going to a new random position.
-
+Remember that the servo needs a little time to get to each position.
 --- no-print ---
 
 ![Random servo movement](images/random_servo_movement.gif)
@@ -20,15 +19,20 @@ Remember that the servo will need a little time to get to each position before g
 
 --- hint ---
 
-Try and write code so that when the `program starts`{:class="crumblebasic"}, `your servo`{:class="crumbleinputoutput"} will `always`{:class="crumblecontrol"} go to a `random`{:class="crumblemaths"} `position`{:class="crumbleinputoutput"}, `wait half a second`{:class="crumblecontrol"} and then go to another `random`{:class="crumblemaths"} `position`{:class="crumbleinputoutput"} and so on.
+Try and write code so that:
+1. When the `program starts`{:class="crumblebasic"}
+1. `your servo`{:class="crumbleinputoutput"} will
+1. `always`{:class="crumblecontrol"}
+1. Go to a `random`{:class="crumblemaths"} `position`{:class="crumbleinputoutput"}
+1.  `wait half a second`{:class="crumblecontrol"}
+1. And then go to another `random`{:class="crumblemaths"} `position`{:class="crumbleinputoutput"}
+1. And do this over and over.
 
 --- /hint ---
 
 --- hint ---
 
-You will need to use the blocks below to create the random position code.
-
-Can you rearrange them to make the code work?
+You need to use the blocks shown below to create the random position code. Can you rearrange them to make the code work?
 
 ![Random servo position Parsons problem](images/step8challengeSequence_parsons.png)
 
@@ -36,11 +40,13 @@ Can you rearrange them to make the code work?
 
 --- hint ---
 
-Arrange the code blocks to make the code below:
+* Arrange the code blocks like this to make the code below:
 
 ![Random servo position code solution](images/step8challengeSequence_solution.png)
 
-Click the green 'play' button to see if it works as you expect.
+* Click on the green triangle **play** button to run your code.
+
+Does the motor do what you expect?
 
 --- /hint ---
 
