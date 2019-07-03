@@ -39,7 +39,7 @@ Widely available, inexpensive physical computing components:
 
 ### Downloads
 
-+ [rpf.io/getting-started-crumble](http://rpf.io/getting-started-crumble-go){:target="_blank"}
++ [rpf.io/getting-started-crumble](http://rpf.io/p/getting-started-crumble-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -61,6 +61,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/getting-started-crumble/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/getting-started-crumble-go).
+[Here is a link to the resources for this project](http://rpf.io/p/getting-started-crumble-go).
 
 --- /collapse ---
