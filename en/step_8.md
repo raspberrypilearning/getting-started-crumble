@@ -9,6 +9,8 @@ Remember that the servo needs a little time to get to each position.
 
 --- /no-print ---
 
+--- /no-print ---
+
 --- print-only ---
 
 ![Random servo movement](images/random_servo_movement.png)
