@@ -104,7 +104,7 @@ Note: A `wait 100 milliseconds`{:class="crumblecontrol"} block and a `wait 0.1 s
 
 The code you have now makes the motor spin forward and then stop. The next section of code you need is the same, expect it should make the motor spin in reverse. The quickest way to create this code is to copy the blocks you already have.
 
- --- no-print ---
+--- no-print ---
 
 ![Duplicating code blocks](images/duplicate_blocks.gif)
 

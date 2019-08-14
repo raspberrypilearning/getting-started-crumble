@@ -3,6 +3,7 @@
 Can you write code to make your servo keep moving to random positions?
 
 Remember that the servo needs a little time to get to each position.
+
 --- no-print ---
 
 ![Random servo movement](images/random_servo_movement.gif)
