@@ -2,9 +2,9 @@ title: Getting started with Crumble
 hero_image: images/banner.png
 description: Use your Crumble with LEDs, buttons, and motors
 version: 4
-listed: false
-copyedit: false
-last_tested: "2019-03-06"
+listed: true
+copyedit: true
+last_tested: "2019-08-14"
 steps:
   - title: Introduction
   - title: Set up the Crumble controller
