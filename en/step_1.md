@@ -61,8 +61,8 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/getting-started-crumble/print){:target="_blank"}.
 
-[Here is a link to the code solutions for this project](http://rpf.io/p/getting-started-crumble-get).
+[Here is a link to the code solutions for this project](http://rpf.io/p/en/getting-started-crumble-get).
 
-[Here is a link to the wiring image resources for this project](http://rpf.io/p/getting-started-crumble-go).
+[Here is a link to the wiring image resources for this project](http://rpf.io/p/en/getting-started-crumble-go).
 
 --- /collapse ---
