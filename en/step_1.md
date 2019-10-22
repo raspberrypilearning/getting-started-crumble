@@ -37,10 +37,6 @@ Widely available, inexpensive physical computing components:
 
 + [Crumble software](https://redfernelectronics.co.uk/crumble-software/){:target="_blank"} — free and available for PC, Mac, Chromebook, and Linux devices
 
-### Downloads
-
-+ [Getting started With Crumble](http://rpf.io/p/en/getting-started-crumble-go){:target="_blank"}
-
 --- /collapse ---
 
 --- collapse ---
