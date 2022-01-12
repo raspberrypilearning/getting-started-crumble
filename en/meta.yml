@@ -1,20 +1,23 @@
+---
 title: Getting started with Crumble
 hero_image: images/banner.png
 description: Use your Crumble with LEDs, buttons, and motors
 version: 5
 listed: true
 copyedit: true
-last_tested: "2019-08-14"
+last_tested: '2019-08-14'
 steps:
-  - title: Introduction
-  - title: Set up the Crumble controller
-  - title: Use a Crumble Sparkle
-  - title: Use LEDs with your Crumble
-  - title: "Challenge: make your LED flash"
-    challenge: true
-  - title: Use DC motors with your Crumble
-  - title: Use servo motors with your Crumble
-  - title: "Challenge: make a random position generator for your servo"
-    challenge: true
-  - title: Use buttons with your Crumble
-  - title: What next?
+- title: Introduction
+  completion: engaged
+- title: Set up the Crumble controller
+- title: Use a Crumble Sparkle
+- title: Use LEDs with your Crumble
+- title: 'Challenge: make your LED flash'
+  challenge: true
+- title: Use DC motors with your Crumble
+- title: Use servo motors with your Crumble
+- title: 'Challenge: make a random position generator for your servo'
+  challenge: true
+  completion: internal
+- title: Use buttons with your Crumble
+- title: What next?
