@@ -8,9 +8,10 @@ copyedit: true
 last_tested: '2019-08-14'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Set up the Crumble controller
 - title: Use a Crumble Sparkle
+  completion:
+  - engaged
 - title: Use LEDs with your Crumble
 - title: 'Challenge: make your LED flash'
   challenge: true
@@ -18,6 +19,7 @@ steps:
 - title: Use servo motors with your Crumble
 - title: 'Challenge: make a random position generator for your servo'
   challenge: true
-  completion: internal
 - title: Use buttons with your Crumble
+  completion:
+  - internal
 - title: What next?
