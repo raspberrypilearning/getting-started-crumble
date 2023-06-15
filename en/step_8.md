@@ -6,13 +6,13 @@ Remember that the servo needs a little time to get to each position.
 
 --- no-print ---
 
-![Random servo movement](images/random_servo_movement.gif)
+![Animation showing random movement on a Tower Pro Micro servo](images/random_servo_movement.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![Random servo movement](images/random_servo_movement.png)
+![Play and stop buttons for running the script to control the servo superimposed over a Tower Pro Micro servo](images/random_servo_movement.png)
 
 --- /print-only ---
 
